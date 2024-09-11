@@ -1,0 +1,113 @@
+.coin1 {
+    margin-top: 178.02px;
+    margin-left: 404.48px;
+    transform: rotate(250deg);
+}
+
+.coin2 {
+    margin-left: 908px;
+    transform: rotate(355deg); 
+}
+
+.main_page_name_text {
+    font-family: DUNE;
+    font-weight: 400;
+    font-size: 94.58px;
+    margin-left: 681.46px;
+    line-height: 33.93px;
+    letter-spacing: 32.62px;
+}
+
+.main_page_text1 {
+    margin-left: 731.46px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 5px;
+}
+
+.main_page_text2 {
+    line-height: 5px;
+    margin-left: 761.46px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: italic;
+    color: #FBCD02;
+    
+}
+
+.main_page_buttons {
+    display: flex;
+    gap: 16px;
+    margin-left: 681.46px;
+}
+
+.main_page_button_registation {
+    display: flex;
+    font-family: Inter;
+    font-size: 18.1px;
+    font-weight: 500;
+    line-height: 24px;
+    border:#FFFFFF;
+    border-radius: 12px;
+    width: 232px;
+    height: 52px;
+    
+}
+
+.main_page_button_sighing {
+    display: flex;
+    font-family: Inter;
+    font-size: 18.1px;
+    font-weight: 500;
+    line-height: 13px;
+    border:#FFFFFF;
+    color: white;
+    background-color: black;
+    height: 52px;
+    border-radius: 12px;
+    width: 232px;
+    gap: 120px;
+    
+}
+
+.main_page_button1_text {
+    margin-left: 15px;
+}
+
+.main_page_button2_text {
+    margin-left: 20px;
+}
+
+.main_page_img {
+    margin-top: 12px;
+}
+
+.d_fix {
+    position: absolute;
+    z-index: 1;
+    top: 343px;
+    left: 698px;
+}
+
+.e_fix {
+    position: absolute;
+    z-index: 1;
+    top: 378px;
+    right: 764px;
+}
+
+.main_page_img1 {
+    margin-top: 18px;
+}
+
+.coin3 {
+margin-left: 390.11px;
+transform: rotate(-179.7deg);
+}
+
+.coin4 {
+margin-left: 1004px;
+transform: rotate(-308.62deg);
+}
