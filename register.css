@@ -22,6 +22,7 @@
     border-radius: 10.14px;
     border: white;
     margin-top: 30px;
+    background-color: #FFF9F6;
 }
 
 .registration_quation_block {
@@ -31,6 +32,7 @@
 }
 
 .registration_password_recovery_button {
+    background-color: white;
     border: white;
     margin-left: 140px;
     margin-top: 7px;
@@ -49,6 +51,7 @@
 .registration_button {
     margin-left: 770px;
     border-radius: 10.14px;
+    margin-top: 10px;
     height: 50.7px;
     width: 337.99px;
     border: white;
@@ -81,7 +84,7 @@
     display: flex;
     gap: 20px;
     margin-top: 40px;
-    margin-left: 830px;
+    margin-left: 820px;
 }
 
 .register_social_button {
@@ -104,4 +107,47 @@
 
 .profession_block {
     margin-top: 20px;
+}
+
+.prefession_change_button {
+    display: flex;
+    margin-left: 770px;
+    height: 40px;
+}
+
+.second_position {
+    margin-left: 180px;
+}
+
+.profession_change_text {
+    font-size: 14px;
+    color: #C2C2C2;
+    font-family: Roboto;
+    line-height: 15.21px;
+}
+
+.signing_quation_button_text {
+font-family: Lato;
+font-size: 12.67px;
+color: #C2C2C2;
+}
+
+.signing_quation_button {
+    font-size: 12.67px;
+    color: #FFDB3C;
+    background-color: white;
+    font-family: Lato;
+    line-height: 15.21px;
+    border: none;
+}
+
+.signing_button_quation_flex {
+    display: flex;
+    gap: 5px;
+    margin-left: 860px;
+}
+
+.coin5 {
+    margin-top: 50px;
+    margin-left: 30px;
 }
