@@ -17,11 +17,11 @@
 
 .registration_window {
     width: 337.99px;
-    height: 50.7px;
+    height: 40.7px;
     margin-left: 770px;
     border-radius: 10.14px;
-    border: white;
-    margin-top: 30px;
+    border: none;
+    margin-top: 10px;
     background-color: #FFF9F6;
 }
 
@@ -150,4 +150,37 @@ color: #C2C2C2;
 .coin5 {
     margin-top: 50px;
     margin-left: 30px;
+}
+
+.registration_error {
+    border: none;
+    background-color: #f1a3a3;
+    border-radius: 6px;
+    margin-left: 770px;
+    height: 50px;
+    width: 337.99px;
+    
+}
+
+.text_in_border_registration {
+    position: absolute;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 18px;
+    color: #c91616;
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.register_yellow_background {
+    position: absolute;
+    z-index: -2;
+    margin-left: 1780px;
+}
+
+.register_yellow_background2 {
+    position: absolute;
+    z-index: -2;
+    margin-top: 1090px;
 }

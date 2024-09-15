@@ -114,3 +114,22 @@ line-height: 15.23px;
     margin-top: 160px;
 
 }
+
+.e_fix_2 {
+    position: absolute;
+    z-index: 0;
+    margin-top: 0px;
+    margin-left: 1110px;
+}
+
+.main_page_yellow_background {
+position: absolute;
+z-index: -2;
+}
+
+.main_page_yellow_background2 {
+    position: absolute;
+    z-index: -2;
+    margin-left: 1780px;
+    margin-top: 1000px;
+}

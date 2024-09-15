@@ -8,6 +8,7 @@
 </head>
 <body>
     <div>
+        <img src="/img/Ellipse 126.png" alt="49" class="register_yellow_background">
     <img src="/img/coin.png" alt="1" class="coin1">
     <img src="/img/coin.png" alt="2" class="coin2">
 </div>
@@ -17,9 +18,13 @@
 </div>
 
 <div>
-<input type="text" class="registration_window" placeholder="Почта">
+<input type="email" class="registration_window" placeholder="Почта" name="email">
 <br>
-<input type="text" class="registration_window" placeholder="Пароль">
+<input type="text" class="registration_window" placeholder="Логин" name="login" >
+<br>
+<input type="password" class="registration_window" placeholder="Пароль" name="password">
+<br>
+<input type="password" class="registration_window" placeholder="Подтвердите Пароль" name="password1">
 </div>
 
 <div class="prefession_change_button">
@@ -32,11 +37,11 @@
 <div class="registration_quation_block">
     <input type="checkbox" class="registration_checkbox">
     <p class="registration_checkbox_text">Запомнить меня</p>
-<button onclick="location.href='registration.html'" class="registration_password_recovery_button">Забыли пароль?</button>
 </div>
 
 <div>
-    <button class="registration_button" onclick="location.href='registration.html'"><p class="main_page_button1_text">Зарегистрироватся</button>
+    <h1 class="registration_error"><p class="text_in_border_registration">Данный аккаунт уже существует!</p></h1>
+    <button class="registration_button" onclick="location.href='signing.html'"><p class="main_page_button1_text">Зарегистрироватся</button>
 </div>
 
 <div class="register_border_bottom">
@@ -53,6 +58,7 @@
 <div>
     <img src="/img/coin.png" alt="7" class="coin3">
     <img src="/img/coin.png" alt="8" class="coin4">
+    <img src="/img/Ellipse 125.png" alt="50" class="register_yellow_background2">
 </div>
 </body>
 </html>
