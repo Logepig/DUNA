@@ -79,6 +79,7 @@ transform: rotate(-308.62deg);
 width: 167px;
 height: 52px;
 border: none;
+background-color: white;
 }
 
 .main_page_button_sighing {
@@ -108,8 +109,8 @@ line-height: 15.23px;
 
 .coin5 {
     position: absolute;
-    z-index: 1;
-    margin-top: 160px;
+    z-index: -3;
+    margin-top: 120px;
 
 }
 
@@ -125,18 +126,21 @@ position: absolute;
 z-index: -2;
 width: 551px;
 height: 551px;
+margin-left: -150px;
+margin-top: -150px;
 }
 
 .main_page_yellow_background2 {
-    width: 351px;
-    height: 301px;
-    position: absolute;
-    z-index: -2;
-    margin-top: -50px;
-    margin-left: 50px;
+max-width: 351px;
+height: 201px;
+max-height: 301px;
+position: absolute;
+z-index: 1;
+margin-top: 56px;
+margin-left: 110px;
 }
 
 .main_page_container {
-    width: 1920px;
-    height: 1080px;
+    max-width: 1920px;
+    max-height: 1060px;
 }
