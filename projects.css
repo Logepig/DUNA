@@ -55,6 +55,7 @@
     margin-top: 30px;
     width: 154px;
     display: flex;
+    background-color: white;
 }
 
 .projects_classic_button_text {
@@ -82,6 +83,7 @@ margin-left: 15px;
         margin-left: 55px;
         border: none;
         display: flex;
+        background-color: white;
     }
     
     .nickname {
@@ -137,6 +139,7 @@ color: #A29EB6;
         height: 41px;
         border: none;
         border-radius: 16px;
+        background-color: white;
     }
 
     .filters_button_gap_svg {
@@ -179,6 +182,7 @@ color: #A29EB6;
 
     .profile_prewiew_button {
         border: none;
+        background-color: white;
     }
 
     .status_block {
@@ -255,8 +259,9 @@ color: #A29EB6;
     }
 
     .overflow_block {
-        overflow: scroll;
+        overflow-y: scroll;
         height: 700px;
+        width: 1200px;
     }
 
     .add_svg_button {
@@ -467,3 +472,73 @@ color: #A29EB6;
             width: 1450px;
             height: 400px;
         }
+
+#input_photo {
+    display: none;
+}
+
+.input_photo_button {
+    display: flex;
+    border: none;
+}
+
+.span_modal_button {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: Lato;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.input_project_name {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    outline-offset: 1px;
+    border: 2px, #FFDB3C, solid;
+}
+
+.display_flex_input_types {
+    display: flex;
+    gap: 80px;
+}
+
+.socials_input {
+    display: block;
+    width: 100px;
+}
+
+.checkbox_type {
+    width: 15.71px;
+    height: 15.71px;
+    border-radius: 6.71px;
+}
+
+.Span_label {
+    font-family: Roboto;
+    font-size: 13.78px;
+    font-weight: 500;
+    line-height: 19.64px;
+    color: #4E4E4E;
+    margin-left: 8px;
+}
+
+.button_submit {
+    margin-top: 15px;
+    color: white;
+width: 335.33px;
+border: none;
+background-color: #FFDB3C;
+height: 59.11px;
+border-radius: 10.86px;
+}
+
+.type_modal_text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto;
+    line-height: 20px;
+    color: black;
+}

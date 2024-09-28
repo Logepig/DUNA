@@ -209,12 +209,43 @@
 
 <div class="modal_add" id="add-modal-block">
     <div class="modal_box">
-        <button class="esc" id="close-add"><img src="/img/cross.svg"></button> 
-        <div class="display_flex_modal_add_projects">
-            <button class="yellow_phone_page">1</button>
-            <button class="white_phone_page">2</button>
-        </div>
-        <p class="addition_text">Добавление нового <span class="yellow_span">проекта</span></p>
+            <button class="esc" id="close-add"><img src="/img/cross.svg"></button> 
+            <p class="addition_text">Добавление нового <span class="yellow_span">проекта</span></p>
+                <input type="file" id="input_photo">
+                  <button onclick="document.getElementById('input_photo').click()" class="input_photo_button"><img src="/img/Project logo.png"> <span class="span_modal_button">Добавить <span class="yellow_span">фото</span></span></button>
+                  <input type="text" name="text_input_project" placeholder="Введите имя проекта" class="input_project_name">
+                  <div class="display_flex_input_types">
+                    <div class="socials_input">
+                    <p class="type_modal_text">Выберите <span class="yellow_span">соцсеть</span></p>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Instagram</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">VK</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">OK</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Telegram</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Likee</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Tiktok</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Youtube</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Twitch</span></label>
+                    </div>
+                    
+                    <div class="socials_input">
+                        <p class="type_modal_text">Выберите <span class="yellow_span">тип оплаты</span></p>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">CPA</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">CPP</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">CPV</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">CPPF</span></label>
+                    </div>
+                  </div>
+                  <button class="button_submit" type="submit" id="commit-add">Подтвердить</button>
     </div>
 </div>
 
