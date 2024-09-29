@@ -583,3 +583,8 @@ border-radius: 10.86px;
     margin-left: 5px;
     color: #A29EB6;
 }
+
+.display_flex_modal_block_add_photo {
+    display: flex;
+    gap: 5px;
+}

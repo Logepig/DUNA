@@ -213,7 +213,10 @@
             <p class="addition_text">Добавление нового <span class="yellow_span">проекта</span></p>
             <div class="overflow_block_of_modal_box">
                 <input type="file" id="input_photo">
-                  <button onclick="document.getElementById('input_photo').click()" class="input_photo_button"><img src="/img/Project logo.png"> <span class="span_modal_button">Добавить <span class="yellow_span">фото</span></span></button>
+                <div class="display_flex_modal_block_add_photo">
+                <img src="/img/Project logo.png">
+                  <button onclick="document.getElementById('input_photo').click()" class="input_photo_button"><span class="span_modal_button">Добавить <span class="yellow_span">фото</span></span></button>
+                </div>
                   <input type="text" name="text_input_project" placeholder="Введите имя проекта" class="input_project_name">
                   <input type="email" name="text_input_project" placeholder="Почта менеджера 1" class="input_project_name">
                   <input type="email" name="text_input_project" placeholder="Почта менеджера 2" class="input_project_name">
