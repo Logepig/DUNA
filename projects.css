@@ -558,3 +558,28 @@ border-radius: 10.86px;
     width: 330px;
     height: 290px;
 }
+
+.active_not_active {
+    display: flex;
+}
+
+.Not_active {
+    margin-left: 100px;
+}
+
+.Status_in_modal_block {
+            font-family: Lato;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22.4px;
+            margin-left: 115px;
+}
+
+.Status_text {
+    font-style: Roboto;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 16px;
+    margin-left: 5px;
+    color: #A29EB6;
+}
