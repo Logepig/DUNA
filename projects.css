@@ -102,6 +102,7 @@ margin-left: 15px;
         width: 815px;
         margin-top: 62px;
         box-shadow: 0px 1px 8px 0px #00000014;
+        border-radius: 16px;
 
     }
 
@@ -278,6 +279,7 @@ color: #A29EB6;
         border: none;
         height: 24px;
         width: 24px;
+        background-color: white;
     }
 
     .modal_add {
@@ -587,4 +589,122 @@ border-radius: 10.86px;
 .display_flex_modal_block_add_photo {
     display: flex;
     gap: 5px;
+}
+
+.blogers_in_application_text {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #A29EB6;
+}
+
+.classic_info_text1 {
+    display: flex;
+    gap: 5px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 14.13px;
+    line-height: 16.96px;
+    color: #A29EB6;
+} 
+
+.Applications_projects_text{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #A29EB6;
+}
+
+.button_cancel_application {
+    border: none;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    color: #A29EB6;
+    width: 285.48px;
+    height: 46.21px;
+}
+
+.prewiew_application_block {
+    width: 378px;
+    height: 590px;
+    border-radius: 19px;
+    box-shadow: 0px 1px 8px 0px #00000014;
+
+}
+
+.overflow_block_applications {
+    overflow-y: scroll;
+    height: 900px;
+    width: 1200px; 
+}
+
+.display_flex_social_text_bloggers {
+    display: flex;
+    gap: 45px;
+}
+
+.display_flex_status_bloggers {
+    display: flex;
+    gap: 69px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.social_text_bloggers {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #A29EB6;
+}
+
+.Yellow_projects_text1 {
+    font-family: Lato;
+        font-weight: 700;
+        line-height: 20.4px;
+        font-size: 17px;
+        color: #FFDB3C;
+        margin-left: -13px;
+}
+
+.bloggers_theme {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #A29EB6;
+}
+
+.type_of_theme {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 10.03px;
+    line-height: 12.04px;
+    color: black;
+    margin-left: 15px;
+}
+
+.button_status1 {
+    width: 390.06px;
+    height: 46.21px;
+    border-radius: 9.24px;
+    border: none;
+    background-color: #FFDB3C;
+    color: white;
+}
+
+.project_logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 180px;
+}
+
+.overflow_block_bloggers {
+        overflow-y: scroll;
+        height: 700px;
+        width: 1400px;
 }

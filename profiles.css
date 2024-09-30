@@ -1,0 +1,115 @@
+.default_data_text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18.23px;
+    color: #A29EB6;
+}
+
+.profile_text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 87px;
+}
+
+.default_data_text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15.8px;
+    color: #A29EB6;
+    margin-left: 5px;
+}
+
+.black_profile_text_status {
+    color: black;
+    font-size: 18.23px;
+    margin-left: 5px;
+}
+
+.yellow_profile_text_status {
+    color: #FFDB3C;
+    font-size: 18.23px;
+    margin-left: 5px;
+}
+
+.referal_main_text {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.referal_block {
+    margin-top: 80px;
+}
+
+.referal_content_text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18.23px;
+    color: #A29EB6;
+}
+
+.referal_link_copy_button {
+    width: 274.64px;
+    height: 55.9px;
+    background-color: #FFDB3C;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18.23px;
+    border-radius: 11.23px;
+    border: none;
+    margin-top: 30px;
+}
+
+.admin_panel_text {
+font-family: Roboto;
+font-weight: 600;
+font-size: 24px;
+}
+
+.admin_panel_button {
+    text-align: left;
+    width: 683px;
+    height: 137px;
+    border-radius: 34.33px;
+    border: none;
+    box-shadow: 0px 1.81px 14.46px 0px #00000014;
+    background-color: white;
+}
+
+.button_arrow {
+    margin-left: 350px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.admin_panel_info_text {
+    font-family: Roboto;
+    font-family: 500;
+    font-size: 18px;
+    color: #A29EB6;
+}
+
+.mark_tick_admin_panel {
+rotate: -90deg;
+}
+
+.admin_panel_change_type {
+    width: 420.57px;
+    height: 55.91px;
+    text-align: left;
+    border: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 21.3px;
+    background-color: white;
+}
+
+.admin_panel_display_flex{
+    display: flex;
+}
+
+.commands_block {
+    margin-top: 130px;
+}
