@@ -5,6 +5,9 @@ document.querySelectorAll(".button_status1").forEach(el => {
 }
 )
 
+document.getElementById("open-add-blogers").addEventListener("click", function() {
+    document.getElementById("add-modal-block-blogers").classList.add("open")
+})
 //5
 document.getElementById("close-add-blogers").addEventListener("click", function() {
     document.getElementById("add-modal-block-blogers").classList.remove("open")

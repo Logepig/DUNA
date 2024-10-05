@@ -319,6 +319,7 @@ color: #A29EB6;
             height: 24px;
             margin-left: 300px;
             margin-top: -40px;
+            background-color: white;
         }
 
         .display_flex_modal_add_projects {
@@ -532,9 +533,10 @@ color: #A29EB6;
     font-family: Roboto;
     font-size: 13.78px;
     font-weight: 500;
-    line-height: 19.64px;
+    line-height: 18.64px;
     color: #4E4E4E;
     margin-left: 8px;
+
 }
 
 .button_submit {
@@ -755,6 +757,8 @@ input::-webkit-calendar-picker-indicator {
     height: 900px;
     width: 1400px;
     background-color: white;
+    border: none;
+    border-radius: 13px;
 }
 
 .modal_add2 {
@@ -796,6 +800,7 @@ input::-webkit-calendar-picker-indicator {
     width: 24px;
     height: 24px;
     margin-left: 460px;
+    background-color: white;
 }
 
 
@@ -805,3 +810,8 @@ input::-webkit-calendar-picker-indicator {
         width: 1360px;
         margin-left: 80px;
 }
+
+.label_fix {
+display: inline-flex;
+}
+
