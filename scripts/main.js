@@ -45,12 +45,9 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
-document.querySelectorAll(".button_status1").forEach(el => {
-    el.addEventListener("click", function() {
-        document.getElementById("add-modal-block_of_blogers").classList.remove("open")
-    })
-}
-)
+document.getElementById("commit-adding").addEventListener("click", function() {
+    document.getElementById("add-modal-block_of_blogers").classList.remove("open")
+})
 
 
 

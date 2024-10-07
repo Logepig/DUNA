@@ -113,3 +113,105 @@ rotate: -90deg;
 .commands_block {
     margin-top: 130px;
 }
+
+.display_flex_profile_blocks {
+    display: flex;
+    width: 1030px;
+    height: 669.55px;
+    margin-top: 30px;
+}
+
+.left_profile_block {
+    width: 459.17px;
+    height: 669.55px;
+}
+
+.right_profile_block {
+    width: 514.96px;
+    height: 669.55px;
+}
+
+.button_report {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: none;
+    margin-left: 254px;
+    margin-top: -100px;
+}
+
+.button_liked {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: none;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+
+.profile_info_text {
+    font-family: Lato;
+font-size: 18.22px;
+font-weight: 700;
+line-height: 21.87px;
+color: #FFD000;
+margin-left: 6px;
+}
+
+.profile_info_display_flex {
+    display: flex;
+}
+
+.profile_img_type1 {
+    margin-left: 15px;
+}
+
+.profile_img_type2 {
+    margin-left: 70px;
+}
+
+.bloger_registration_status {
+    font-family: Lato;
+font-size: 18.22px;
+font-weight: 700;
+line-height: 21.87px;
+color: #CBFF8B;
+margin-left: 15px;
+}
+
+.bloger_costs {
+    font-family: Lato;
+font-size: 14.58px;
+font-weight: 700;
+line-height: 17.49px;
+color:#A29EB6;
+margin-left: 9px;
+}
+
+.change_cost_button {
+    width: 346.78px;
+height: 56.13px;
+gap: 0px;
+border-radius: 11.23px;
+opacity: 0px;
+border: none;
+background-color: #FFDB3C;
+color: white;
+}
+
+.paying_status {
+    font-family: Lato;
+font-size: 14.58px;
+font-weight: 700;
+line-height: 17.49px;
+color: #A29EB6;
+margin-top: 40px;
+}
+
+.verification_status {
+    font-family: Lato;
+font-size: 18.22px;
+font-weight: 700;
+line-height: 21.87px;
+color: #CBFF8B;
+}

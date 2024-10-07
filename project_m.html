@@ -20,7 +20,7 @@
     <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/yellow_projects.png"><p class="projects_classic_button_text_yellow">Проекты</p></button>
     <button class="button_on_projects_classic" onclick="location.href='project_m.html'"><img src="/img/Posts.png" ><p class="projects_classic_button_text">Посты</p></button>
     <button class="button_on_projects_classic" onclick="location.href='profile_manager.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
-    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Заявки</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
 </div>
 
 <div>
@@ -33,7 +33,6 @@
             <img src="/img/search.svg">
             <input type="text" placeholder="Поиск" class="input_search">
             <img src="/img/filters.svg" class="img_searh_block_filters">
-            <button class="add_svg_button" id="open-add"><img src="/img/add.svg"></button>
         </div>
         <div class="filters_block_text">
             <p class="filters_block_text_msg">Фильтрация</p>
@@ -204,6 +203,7 @@
             </div>
     </div>
 </div>
+<button class="add_svg_button" id="open-add"><img src="/img/big_plus.svg"></button>
     </div>
 </div>
 
@@ -303,38 +303,36 @@
                 </div>
             <div class="overflow_block_of_modal_box_bloggers">
                 <div class="grid_block_modal_box_bloggers">
-                    <div class="prewiew_project_block">
-                        <div class="display_flex_profile_prewiew">
-                            <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
-                            <div class="status_block">
-                                <p class="id">id: 0</p>
-                                <p class="project_block_nickname">Okko</p>
-                                <p class="date">30.08.2024</p>
+                    <ul class="bloger_list">
+                        <li class="bloger_list_element"><input type="checkbox" class="input_element_in_bloger_list"><div class="prewiew_project_block_in_list">
+                            <div class="display_flex_profile_prewiew">
+                                <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                                <div class="status_block">
+                                    <p class="id">id: 0</p>
+                                    <p class="project_block_nickname">Okko</p>
+                                    <p class="date">30.08.2024</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="display_flex_social_text_bloggers">
-                            <p class="social_text_bloggers">Подписчики</p>
-                            <p class="social_text_bloggers">Охваты</p>
-                            <p class="social_text_bloggers">Лайки</p>
-                        </div>
-                        <div class="display_flex_status_bloggers">
-                            <p class="Yellow_projects_text">Н/Д</p>
-                            <p class="Yellow_projects_text">Н/Д</p>
-                            <p class="Yellow_projects_text1">Н/Д</p>
-                        </div>
-                        <p class="bloggers_theme">Тематика: <span class="type_of_theme">Лайфстайл</span></p>
-                        <p class="bloggers_theme">Оплата: <span class="type_of_theme">3000</span></p>
-                        <button class="button_status1" >Добавить блогера</button>
-                    </div>
+                            <div class="display_flex_social_text_bloggers">
+                                <p class="social_text_bloggers">Подписчики</p>
+                                <p class="social_text_bloggers">Охваты</p>
+                                <p class="social_text_bloggers">Лайки</p>
+                            </div>
+                            <div class="display_flex_status_bloggers">
+                                <p class="Yellow_projects_text">Н/Д</p>
+                                <p class="Yellow_projects_text">Н/Д</p>
+                                <p class="Yellow_projects_text1">Н/Д</p>
+                            </div>
+                            <p class="bloggers_theme">Тематика: <span class="type_of_theme">Лайфстайл</span></p>
+                            <p class="bloggers_theme">Оплата: <span class="type_of_theme">3000</span></p>
+                        </div></li>
+                    </ul>
                     </div>
                 
             </div>
+            <button class="button_submit_blogers" type="submit" id="commit-adding">Подтвердить</button>
     </div>
     </div>
-
-
-
-            
 
 <script src="/scripts/main.js"></script>
 </body>

@@ -20,7 +20,7 @@
     <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/grey_projects.png"><p class="projects_classic_button_text">Проекты</p></button>
     <button class="button_on_projects_classic" onclick="location.href='project_m.html'"><img src="/img/Posts.png"><p class="projects_classic_button_text">Посты</p></button>
     <button class="button_on_projects_classic" onclick="location.href='profile_manager.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
-    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Заявки</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
 </div>
 
 <div>
@@ -35,7 +35,6 @@
             <img src="/img/search.svg">
             <input type="text" placeholder="Поиск" class="input_search">
             <img src="/img/filters.svg" class="img_searh_block_filters">
-            <button class="add_svg_button" id="open-add-blogers"><img src="/img/add.svg"></button>
         </div>
         <div class="filters_block_text">
             <p class="filters_block_text_msg">Фильтрация</p>
@@ -50,7 +49,7 @@
             <div class="grid_block_bloggers">
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -76,7 +75,7 @@
                 </div>
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -102,7 +101,7 @@
                 </div>
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -130,7 +129,7 @@
             
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -156,7 +155,7 @@
                 </div>
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -182,7 +181,7 @@
                 </div>
                 <div class="prewiew_project_block">
                     <div class="display_flex_profile_prewiew">
-                        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
                         <div class="status_block">
                             <p class="id">id: 0</p>
                             <p class="project_block_nickname">Okko</p>
@@ -208,86 +207,87 @@
                 </div>
             </div>
         </div>
-        <div class="modal_add" id="add-modal-block-blogers">
-            <div class="modal_box">
-                    <button class="esc" id="close-add-blogers"><img src="/img/cross.svg"></button> 
-                    <p class="addition_text">Добавление нового <span class="yellow_span">блогера</span></p>
-                    <div class="overflow_block_of_modal_box">
-                        <input type="file" id="input_photo" name="input_photo">
-                        <div class="display_flex_modal_block_add_photo">
-                        <img src="/img/Project logo.png">
-                          <label for="input_photo" class="input_photo_button"><span class="span_modal_button">Добавить <span class="yellow_span">фото</span></span></label>
-                        </div>
-                          <input type="text" name="text_input_project" placeholder="Введите имя и фамилию" class="input_project_name">
-                          <input type="number" name="text_input_project" placeholder="Введите номер телефона" class="input_project_name">
-                          <input type="email" name="text_input_project" placeholder="Введите вашу почту" class="input_project_name">
-                          <div class="display_flex_input_types">
-                            <div class="socials_input">
-                            <p class="type_modal_text">Ваши <span class="yellow_span">соцсети</span></p>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Instagram</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">VK</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">OK</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Telegram</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Likee</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Tiktok</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Youtube</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Twitch</span></label>
-                            </div>
-                            <div class="socials_input">
-                                <p class="type_modal_text">Ваше количество<br><span class="yellow_span">подписчиков</span></p>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">50-100</span></label>
-                                <br>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">100-500</span></label>
-                                <br>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">500-1000</span></label>
-                                <br>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">1000-5000</span></label>
-                                <br>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">5000-10000</span></label>
-                                <br>
-                                <label><input type="checkbox" class="checkbox_type"><span class="Span_label">10000+</span></label>
-                            </div>
-                          </div>
-                          <div>
-                          <p class="Status_in_modal_block_bloggers">Оплата за проект</p>
-                          <input type="number" name="text_input_project" placeholder="Введите оплату за проект" class="input_project_name2">
-                          <p class="Status_in_modal_block_bloggers2">Тематика</p>
-                          <div class="socials_input_theme">
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Авто, мото</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Бизнес и финансы</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Дом, ремонт</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Животные и питомцы</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Компьютер, интернет</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Здоровье и медицина</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Кулинария, фудблоги</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Лайфстайл</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Новости</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Образование и наука</span></label>
-                            <br>
-                            <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Иное</span></label>
-                            </div>
-                        </div>
-                        </div>
-                          <button class="button_submit" type="submit" id="commit-add-blogers">Подтвердить</button>
-            </div>
-        </div>
+        <button class="add_svg_button" id="open-add-blogers"><img src="/img/big_plus.svg"></button>
     </div>
+    </div>
+</div>
+<div class="modal_add" id="add-modal-block-blogers">
+    <div class="modal_box">
+            <button class="esc" id="close-add-blogers"><img src="/img/cross.svg"></button> 
+            <p class="addition_text">Добавление нового <span class="yellow_span">блогера</span></p>
+            <div class="overflow_block_of_modal_box">
+                <input type="file" id="input_photo" name="input_photo">
+                <div class="display_flex_modal_block_add_photo">
+                <img src="/img/Project logo.png">
+                  <label for="input_photo" class="input_photo_button"><span class="span_modal_button">Добавить <span class="yellow_span">фото</span></span></label>
+                </div>
+                  <input type="text" name="text_input_project" placeholder="Введите имя и фамилию" class="input_project_name">
+                  <input type="number" name="text_input_project" placeholder="Введите номер телефона" class="input_project_name">
+                  <input type="email" name="text_input_project" placeholder="Введите вашу почту" class="input_project_name">
+                  <div class="display_flex_input_types">
+                    <div class="socials_input">
+                    <p class="type_modal_text">Ваши <span class="yellow_span">соцсети</span></p>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Instagram</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">VK</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">OK</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Telegram</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Likee</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Tiktok</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Youtube</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Twitch</span></label>
+                    </div>
+                    <div class="socials_input">
+                        <p class="type_modal_text">Ваше количество<br><span class="yellow_span">подписчиков</span></p>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">50-100</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">100-500</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">500-1000</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">1000-5000</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">5000-10000</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">10000+</span></label>
+                    </div>
+                  </div>
+                  <div>
+                  <p class="Status_in_modal_block_bloggers">Оплата за проект</p>
+                  <input type="number" name="text_input_project" placeholder="Введите оплату за проект" class="input_project_name2">
+                  <p class="Status_in_modal_block_bloggers2">Тематика</p>
+                  <div class="socials_input_theme">
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Авто, мото</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Бизнес и финансы</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Дом, ремонт</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Животные и питомцы</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Компьютер, интернет</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Здоровье и медицина</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Кулинария, фудблоги</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Лайфстайл</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Новости</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Образование и наука</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Иное</span></label>
+                    </div>
+                </div>
+                </div>
+                  <button class="button_submit" type="submit" id="commit-add-blogers">Подтвердить</button>
     </div>
 </div>
 <script src="/scripts/scripts.js"></script>
