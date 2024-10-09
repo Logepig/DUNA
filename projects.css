@@ -859,7 +859,7 @@ display: inline-flex;
     margin-left: 30px;
     overflow-y: scroll;
     margin-top: -50px;
-    height: 420px;
+    height: 760px;
 }
 
 .display_flex_social_status_blogers {
@@ -902,6 +902,8 @@ display: inline-flex;
 }
 
 .prewiew_project_block_in_list {
+    margin-top: 50px;
+    margin-left: -30px;
     width: 338px;
     height: 305px;
     border-radius: 19px;
