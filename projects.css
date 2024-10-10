@@ -160,14 +160,14 @@ color: #A29EB6;
 
     .display_flex_social_text {
         display: flex;
-        gap: 150px;
+        gap: 60px;
         margin-left: 40px;
     }
 
     .display_flex_status {
         display: flex;
         margin-left: 20px;
-        gap: 135px;
+        gap: 49px;
         margin-top: -25px;
     }
 
@@ -239,11 +239,21 @@ color: #A29EB6;
         color: #FFDB3C;
     }
 
+    .Yellow_projects_text2 {
+        font-family: Lato;
+        font-weight: 700;
+        line-height: 20.4px;
+        font-size: 17px;
+        color: #FFDB3C;
+        margin-left: 38px;
+    }
+
     .social_network {
         font-family: Lato;
         font-weight: 700;
         line-height: 21.4px;
         font-size: 18px;
+        margin-left: 12px;
     }
 
     .social_network_logo {
@@ -251,7 +261,9 @@ color: #A29EB6;
     }
 
     .button_status {
-        width: 285.48px;
+        margin-left: 8px;
+        margin-top: 3px;
+        width: 305.48px;
         height: 46.21px;
         border-radius: 9.24px;
         border: none;
@@ -602,6 +614,7 @@ border-radius: 10.86px;
     font-size: 18px;
     line-height: 21.6px;
     color: #A29EB6;
+    margin-left: 12px;
 }
 
 .classic_info_text1 {
@@ -612,6 +625,7 @@ border-radius: 10.86px;
     font-size: 14.13px;
     line-height: 16.96px;
     color: #A29EB6;
+    margin-left: 10px;
 } 
 
 .Applications_projects_text{
@@ -620,6 +634,7 @@ border-radius: 10.86px;
     font-size: 18px;
     line-height: 21.6px;
     color: #A29EB6;
+    margin-left: 12px;
 }
 
 .button_cancel_application {
@@ -631,6 +646,8 @@ border-radius: 10.86px;
     color: #A29EB6;
     width: 285.48px;
     height: 46.21px;
+    background-color: white;
+    margin-left: 22px;
 }
 
 .prewiew_application_block {
@@ -638,6 +655,7 @@ border-radius: 10.86px;
     height: 590px;
     border-radius: 19px;
     box-shadow: 0px 1px 8px 0px #00000014;
+    margin-top: 20px;
 
 }
 
@@ -686,6 +704,16 @@ border-radius: 10.86px;
     margin-left: 8px;
 }
 
+.bloggers_theme2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #A29EB6;
+    margin-left: 8px;
+    margin-top: -4px;
+}
+
 .type_of_theme {
     font-family: Lato;
     font-weight: 700;
@@ -709,6 +737,7 @@ border-radius: 10.86px;
     width: 70px;
     height: 70px;
     border-radius: 180px;
+    margin-left: 10px;
 }
 
 .overflow_block_bloggers {
