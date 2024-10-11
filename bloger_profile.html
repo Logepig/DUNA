@@ -46,8 +46,10 @@
         </div>
         <div class="display_flex_profile_blocks">
 <div class="left_profile_block">
+    <div class="left_profile_block_box_shadows">
+    <div class="style_fix2">
     <div class="display_flex_profile_prewiew">
-        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="profile_logo_bloger"></button>
         <div class="status_block">
             <p class="id">id: 0</p>
             <p class="project_block_nickname">Okko</p>
@@ -56,16 +58,18 @@
             <button class="button_liked"><img src="/img/liked.svg"></button>
         </div>  
     </div>
+    <div class="style_fix3">
     <div class="display_flex_social_text_bloggers">
-        <p class="social_text_bloggers">Подписчики</p>
-        <p class="social_text_bloggers">Охваты</p>
-        <p class="social_text_bloggers">Лайки</p>
+        <p class="social_text_bloggers1">Подписчики</p>
+        <p class="social_text_bloggers1">Охваты</p>
+        <p class="social_text_bloggers1">Лайки</p>
     </div>
-    <div class="display_flex_status_bloggers">
+    <div class="display_flex_status_bloggers2">
         <p class="Yellow_projects_text">Н/Д</p>
-        <p class="Yellow_projects_text">Н/Д</p>
-        <p class="Yellow_projects_text1">Н/Д</p>
+        <p class="Yellow_projects_text2">Н/Д</p>
+        <p class="Yellow_projects_text3">Н/Д</p>
     </div>
+</div>
     <div class="profile_info_display_flex">
         <img src="/img/mail.svg" class="profile_img_type1">
         <p class="profile_info_text">н/д</p>
@@ -78,18 +82,64 @@
         <img src="img/account_icon.svg" class="profile_img_type2">
         <p class="profile_info_text">н/д</p>
     </div>
+
     <p class="bloger_registration_status"> Блогер зарегистрирован</p>
     <p class="bloger_costs">Основная цена<span class="yellow_span"> 1900</span></p>
     <button class="change_cost_button">Добавить цену</button>
-    <p class="paying_status">Платежные статусы</p>
-    <p class="verification_status">Верифицирован</p>
+</div>
+</div>
+<div class="left_profile_block_box_shadows2">
+    <br>
+        <p class="paying_status">Платежные статусы</p>
+        <p class="verification_status">Верифицирован</p>
+</div>
 </div>
 <div class="right_profile_block">
+<p class="addition_text_bloger_profile">Статистика по <span class="yellow_span">проектам</span></p>
+<div class="diplay_grid_statistics_block">
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Проекты</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Заявки</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Посты</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+    
+</div>
 
+<div class="projects_block_on_blogers_profile">
+<div class="display_flex_bloggers">
+    <p class="ff_text">Проекты</p>
+    <img src="/img/black_skipper.svg">
+</div>
+<div class="display_flex_profile_prewiew">
+    <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+    <div class="status_block">
+        <p class="project_block_nickname">Okko</p>
+        <p class="date">30.08.2024</p>
+    </div>
+</div>
+<div class="stat_block"> 
+<p class="true_classic">Статус: <span class="classic_active">Активный</span></p>
+<p class="true_classic">Охваты: <span class="classic_active">Н/Д</span></p>
+<p class="true_classic">Лайки: <span class="classic_active">Н/Д</span></p>
+</div>
+
+<div class="skipper_block">
+<button class="skipper1" id="minus"><img src="/img/grey_skipper.svg"></button>
+<p class="yellow_text_counter" id="counter"></p>
+<button class="skipper2" id="plus"><img src="/img/grey_skipper.svg"></button>
+</div>
+</div>
 </div>
         </div>
     </div>
     </div>
-
+    <script src="/scripts/project_list.js"></script>
 </body>
 </html>

@@ -119,6 +119,7 @@ rotate: -90deg;
     width: 1030px;
     height: 669.55px;
     margin-top: 30px;
+    gap: 65px;
 }
 
 .left_profile_block {
@@ -136,8 +137,8 @@ rotate: -90deg;
     z-index: 1;
     background-color: white;
     border: none;
-    margin-left: 254px;
-    margin-top: -100px;
+    margin-left: 234px;
+    margin-top: -94px;
 }
 
 .button_liked {
@@ -145,8 +146,8 @@ rotate: -90deg;
     z-index: 1;
     background-color: white;
     border: none;
-    margin-left: 220px;
-    margin-top: -100px;
+    margin-left: 200px;
+    margin-top: -94px;
 }
 
 .profile_info_text {
@@ -205,7 +206,8 @@ font-size: 14.58px;
 font-weight: 700;
 line-height: 17.49px;
 color: #A29EB6;
-margin-top: 40px;
+margin-left: 30px;
+margin-top: -10px;
 }
 
 .verification_status {
@@ -214,4 +216,185 @@ font-size: 18.22px;
 font-weight: 700;
 line-height: 21.87px;
 color: #CBFF8B;
+margin-left: 30px;
+margin-top: -2px;
+}
+
+.style_fix2 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.profile_logo_bloger {
+    border: none;
+    background-color: none;
+    width: 96px;
+    height: 96px;
+}
+
+.style_fix3 {
+    margin-left: 20px;
+}
+
+.social_text_bloggers2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14.58px;
+    line-height: 17.49px;
+    color: #A29EB6;
+}
+
+.display_flex_status_bloggers2 {
+    display: flex;
+    gap: 69px;
+    margin-top: -15px;
+    margin-left: 33px;
+}
+
+.Yellow_projects_text2 {
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 20.4px;
+    font-size: 17px;
+    color: #FFDB3C;
+    margin-left: 12px; 
+}
+
+.Yellow_projects_text3 {
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 20.4px;
+    font-size: 17px;
+    color: #FFDB3C;
+    margin-left: -8px
+}
+
+.left_profile_block_box_shadows {
+    box-shadow: 0px 1.21px 9.72px 0px #00000014;
+    border-radius: 23.08px;
+    height: 499px;
+}
+
+    .left_profile_block_box_shadows2 {
+        box-shadow: 0px 1.21px 9.72px 0px #00000014;
+        border-radius: 23.08px;
+        height: 92.32px;
+        margin-top: 20px;
+    }
+
+.addition_text_bloger_profile {
+    font-family: Lato;
+font-size: 19.44px;
+font-weight: 700;
+line-height: 23.32px;
+}
+
+.diplay_grid_statistics_block {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+   grid-auto-flow: row;
+}
+
+.statistics_underblock {
+    width: 209.54px;
+height: 83.82px;
+border-radius: 20.95px;
+box-shadow: 0px 1.1px 8.82px 0px #00000014;
+}
+
+.type_of_stat {
+    font-family: Lato;
+font-size: 14.58px;
+font-weight: 700;
+line-height: 17.49px;
+color: #A29EB6;
+margin-left: 80px;
+}
+
+.count_of_stat {
+    font-family: Lato;
+font-size: 19.44px;
+font-weight: 700;
+line-height: 23.32px;
+color: #FFD000;
+margin-left: 90px;
+}
+
+.projects_block_on_blogers_profile {
+box-shadow: 0px 1.1px 8.82px 0px #00000014;
+width: 510.1px;
+height: 390.16px;
+border-radius: 23.78px ;
+}
+
+.display_flex_bloggers {
+    display: flex;
+    gap: 350px;
+}
+
+.ff_text {
+    font-family: Lato;
+font-size: 19.3px;
+font-weight: 700;
+line-height: 23.16px;
+color: #424242;
+background-color: white;
+margin-left: 30px;
+}
+
+.true_classic {
+    font-family: Lato;
+font-size: 16.54px;
+font-weight: 700;
+line-height: 19.85px;
+color: #A29EB6;
+background-color: white;
+margin-left: 30px;
+}
+
+.classic_active {
+    font-family: Lato;
+font-size: 16.54px;
+font-weight: 700;
+line-height: 19.85px;
+text-align: left;
+color: black;
+background-color: white;
+}
+
+.stat_block {
+    margin-top: 40px;
+}
+
+.skipper1 {
+    rotate: 180deg;
+    border: none;
+    height: 36px;
+    width: 36px;
+    background-color: white;
+}
+
+.skipper2 {
+    border: none;
+    height: 36px;
+    width: 36px;
+    background-color: white;
+}
+
+.skipper_block {
+    display: flex;
+    margin-left: 220px;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.yellow_text_counter {
+    font-family: Roboto;
+font-size: 19.3px;
+font-weight: 500;
+line-height: 33.09px;
+color: #FFD000;
+background-color: white;
+margin-top: -1px;
 }

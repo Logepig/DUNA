@@ -957,4 +957,45 @@ background-color: #FFDB3C;
 height: 49.11px;
 border-radius: 10.86px;
 margin-left: 25px;
-} 
+}
+
+.style_fix {
+    margin-left: 15px;
+}
+
+.error {
+position: fixed;
+background-color: #f56969;
+border: 1px, #f32525, solid;
+border-radius: 19px;
+width: 410px;
+height: 145px;
+margin-left: 1400px;
+margin-top: -70%;
+visibility: 0;
+opacity: 0;
+}
+
+.error.open {
+    visibility: 1; 
+    opacity: 1;
+}
+
+.esc3 {
+    position: fixed;
+    background-color: #f56969;
+    margin-left: 350px;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+.error_text {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Lato;
+}

@@ -20,3 +20,14 @@ document.getElementById("add-application").addEventListener("click", function() 
 document.getElementById("commit-adding").addEventListener("click", function() {
     document.getElementById("add-modal-block_of_blogers").classList.remove("open")
 })
+
+function open_error() {
+    document.getElementById("error_window").classList.add("open")
+
+}
+
+document.getElementById("close-error").addEventListener("click", function() {
+document.getElementById("error_window").classList.remove("open")
+})
+
+

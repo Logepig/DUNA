@@ -44,6 +44,7 @@
 
         </div>
         <div>
+            <div class="style_fix">
         <div class="display_flex_profile_prewiew_info">
             <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
             <div class="status_block">
@@ -57,6 +58,7 @@
         <p class="classic_info_text">Статус: <span class="info_text">Активен</span></p>
         <p class="classic_info_text">Тип оплаты: <span class="info_text">CCPF</span></p>
         <p class="classic_info_text">Оплата: <span class="info_text">2000</span></p>
+    </div>
         <p class="manager_info_text">Менеджеры <span class="yellow_span">проекта</span></p>
 
         <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
@@ -205,7 +207,7 @@
                     <img src="/img/social_logo.svg" class="social_network_logo">
                 </div>
                 <div class="display_flex_button_status">
-                    <button class="button_status" onclick="location.href='project_info.html'">Подать заявку на...</button>
+                    <button class="button_status" onclick="{open_error()}">Подать заявку на...</button>
                     <img src="/img/Mark_tick.svg" class="tick_img">
                 </div>
             </div>
@@ -254,6 +256,11 @@
     </div>
     </div>
     
+
+    <div class="error" id="error_window">
+        <button id="close-error" class="esc3"><img src="/img/cross.svg"></button> 
+        <p class="error_text">Ошибка</p>
+    </div>
 <script src="/scripts/large_windows.js"></script>
 </body>
 </html>
