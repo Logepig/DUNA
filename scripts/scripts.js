@@ -1,9 +1,3 @@
-document.querySelectorAll(".button_status1").forEach(el => {
-    el.addEventListener("click", function() {
-        document.getElementById("add-modal-block-blogers").classList.add("open")
-    })
-}
-)
 
 document.getElementById("open-add-blogers").addEventListener("click", function() {
     document.getElementById("add-modal-block-blogers").classList.add("open")

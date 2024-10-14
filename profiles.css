@@ -137,8 +137,8 @@ rotate: -90deg;
     z-index: 1;
     background-color: white;
     border: none;
-    margin-left: 234px;
-    margin-top: -94px;
+    margin-left: 224px;
+    margin-top: -84px;
 }
 
 .button_liked {
@@ -146,8 +146,8 @@ rotate: -90deg;
     z-index: 1;
     background-color: white;
     border: none;
-    margin-left: 200px;
-    margin-top: -94px;
+    margin-left: 190px;
+    margin-top: -84px;
 }
 
 .profile_info_text {
@@ -221,8 +221,8 @@ margin-top: -2px;
 }
 
 .style_fix2 {
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .profile_logo_bloger {
@@ -234,6 +234,7 @@ margin-top: -2px;
 
 .style_fix3 {
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .social_text_bloggers2 {

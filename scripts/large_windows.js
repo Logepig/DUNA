@@ -21,13 +21,19 @@ document.getElementById("commit-adding").addEventListener("click", function() {
     document.getElementById("add-modal-block_of_blogers").classList.remove("open")
 })
 
+
+
 function open_error() {
-    document.getElementById("error_window").classList.add("open")
+    document.querySelectorAll(".error").forEach(el => {
+        el.classList.add("open")
+    });
 
 }
 
-document.getElementById("close-error").addEventListener("click", function() {
-document.getElementById("error_window").classList.remove("open")
+document.querySelectorAll(".esc3").forEach(el => {
+    el.addEventListener("click", function() {
+        document.querySelectorAll(".error").forEach(el => {
+            el.classList.remove("open")
+        });
+    })
 })
-
-
