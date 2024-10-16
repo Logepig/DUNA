@@ -81,8 +81,8 @@ margin-left: 15px;
     }
 
     .profile {
-        margin-top: 420px;
-        margin-left: 55px;
+        margin-top: 340px;
+        margin-left: 85px;
         border: none;
         display: flex;
         background-color: white;
@@ -1017,6 +1017,8 @@ box-shadow: 0px 1.1px 8.81px 0px #00000014;
 font-size: 18.2px;
 font-weight: 700;
 line-height: 21.84px;
+padding-top: 15px;
+margin-left: 30px;
 }
 
 .box_shadows_in_status_block {
@@ -1130,7 +1132,9 @@ margin-left: 20px;
 }
 
 .right_block_projects2 {
-    height: 1400px;
+    width: 1400px;
+    height: 700px;
+
 }
 
 .yellow_span2 {
