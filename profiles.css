@@ -126,12 +126,17 @@ rotate: -90deg;
     margin-top: 40px;
     width: 1500px;
     height: 855.55px;
-    overflow: scroll;
+    overflow-y: scroll;
     display: grid;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-columns: repeat(2, 1fr);
-   grid-auto-flow: column;
+   grid-auto-flow: row;
    box-shadow: 0px 1.21px 9.72px 0px #00000014;
+   gap: 40px;
+}
+
+.block_fix {
+    margin-left: -700px;
 }
 
 .pair_block {
@@ -290,6 +295,8 @@ line-height: 23.32px;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-columns: repeat(2, 1fr);
    grid-auto-flow: row;
+   width: 200px;
+   gap: 40px;
 }
 
 .statistics_underblock {
@@ -379,10 +386,6 @@ margin-left: 90px;
     opacity: 1;
 }
 
-.block_fix {
-    margin-left: -450px;
-}
-
-.block_fix2 {
-    padding-right: 70px;
+.post_block {
+    margin-left: 60px;
 }
