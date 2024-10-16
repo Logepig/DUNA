@@ -18,8 +18,8 @@
 <div class="button_block_projects">
     <button class="button_on_projects_classic" onclick="location.href='home.html'"><img src="/img/yellow_bloggers.png"><p class="projects_classic_button_text_yellow">Блогеры</p></button>
     <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/grey_projects.png"><p class="projects_classic_button_text">Проекты</p></button>
-    <button class="button_on_projects_classic" onclick="location.href='project_m.html'"><img src="/img/Posts.png"><p class="projects_classic_button_text">Посты</p></button>
-    <button class="button_on_projects_classic" onclick="location.href='profile_manager.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='posts.html'"><img src="/img/Posts.png"><p class="projects_classic_button_text">Посты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='stats.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
     <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
 </div>
 
@@ -35,7 +35,7 @@
             <img src="/img/search.svg">
             <input type="text" placeholder="Поиск" class="input_search">
             <img src="/img/filters.svg" class="img_searh_block_filters">
-        </div>
+        </div class="pair_block">
         <div class="filters_block_text">
             <p class="filters_block_text_msg">Фильтрация</p>
             <p class="filters_block_text_msg">Всего найдено:</p>
@@ -44,8 +44,8 @@
             <button class="button_of_filters"><p>Соцсеть </p><img src="/img/gap.svg" class="filters_button_gap_svg"></button>
             <button class="button_of_filters"><p>Тип </p><img src="/img/gap.svg" class="filters_button_gap_svg"></button>
         </div>
-        <div class="display_flex_profile_blocks">
 <div class="left_profile_block">
+    <div>
     <div class="left_profile_block_box_shadows">
     <div class="style_fix2">
     <div class="display_flex_profile_prewiew">
@@ -93,8 +93,6 @@
         <p class="paying_status">Платежные статусы</p>
         <p class="verification_status">Верифицирован</p>
 </div>
-</div>
-<div class="right_profile_block">
 <p class="addition_text_bloger_profile">Статистика по <span class="yellow_span">проектам</span></p>
 <div class="diplay_grid_statistics_block">
     <div class="statistics_underblock">
@@ -111,35 +109,8 @@
     </div>
     
 </div>
-
-<div class="projects_block_on_blogers_profile">
-<div class="display_flex_bloggers">
-    <p class="ff_text">Проекты</p>
-    <img src="/img/black_skipper.svg">
 </div>
-<div class="display_flex_profile_prewiew">
-    <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
-    <div class="status_block">
-        <p class="project_block_nickname">Okko</p>
-        <p class="date">30.08.2024</p>
-    </div>
-</div>
-<div class="stat_block"> 
-<p class="true_classic">Статус: <span class="classic_active">Активный</span></p>
-<p class="true_classic">Охваты: <span class="classic_active">Н/Д</span></p>
-<p class="true_classic">Лайки: <span class="classic_active">Н/Д</span></p>
-</div>
-
-<div class="skipper_block">
-<button class="skipper1" id="minus"><img src="/img/grey_skipper.svg"></button>
-<p class="yellow_text_counter" id="counter"></p>
-<button class="skipper2" id="plus"><img src="/img/grey_skipper.svg"></button>
-</div>
-</div>
-</div>
-        </div>
     </div>
     </div>
-    <script src="/scripts/project_list.js"></script>
 </body>
 </html>

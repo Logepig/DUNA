@@ -653,7 +653,7 @@ border-radius: 10.86px;
 }
 
 .prewiew_application_block {
-    width: 378px;
+    width: 340px;
     height: 590px;
     border-radius: 19px;
     box-shadow: 0px 1px 8px 0px #00000014;
@@ -1262,4 +1262,97 @@ margin-left: 20px;
                 font-weight: 700;
                 line-height: 17.22px;
                 color: #FFFFFF;
+            }
+
+            .rub_counter {
+                padding-top: 20px;
+                font-family: Roboto;
+                font-size: 49.48px;
+                font-weight: 600;
+                line-height: 57.98px;
+                color: #FFD000;
+                margin-left: 30px;
+                margin-top: 50px;
+
+            }
+
+            .ff_text {
+            margin-left: 30px;
+            font-family: Roboto;
+            font-size: 15.39px;
+            font-weight: 500;
+            line-height: 18.04px;
+            color: #A29EB6;
+
+            }
+
+            .incoming_stat {
+                width: 205.6px;
+                height: 188.01px;
+                border-radius: 20.89px;
+                box-shadow: 0px 1.1px 8.8px 0px #00000014;
+                margin-left: 50px;
+            }
+
+            .display_flex_of_stat_text {
+                margin-top: 50px;
+                display: flex;
+                gap: 1000px;
+            }
+
+            .stat_of_stat_text {
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 24px;
+                color: #585555;
+            }
+
+            .time_of_stat {
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 24px;
+                color: #A29EB6;
+            }
+            
+            .display_flex_part_of_text {
+                display: flex;
+                gap: 480px;
+                margin-left: 40px;
+            }
+
+            .display_flex_stat_blocks {
+                display: flex;
+                gap: 340px;
+                margin-left: 40px;
+                margin-top: 20px;  
+            }
+            .fff_text {
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 24px;
+                color: #A29EB6;
+            }
+
+            .stat_boxes_of_shadows {
+                box-shadow: 0px 1px 8px 0px #00000014;
+                width: 1412px;
+                height: 325px;
+                border-radius: 19px;
+                overflow-y: scroll;
+            }
+
+            .date_of_stats {
+                font-family: Lato;
+                font-size: 10px;
+                font-weight: 600;
+                line-height: 12px;
+                color: #A29EB6;
+                padding-top: 40px;
+            }
+
+            .img_stats_commiter {
+                margin-left: 130px;
             }
