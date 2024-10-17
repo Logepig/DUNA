@@ -1146,13 +1146,14 @@ margin-left: 20px;
     position: fixed;
     border:none;
     width: 321px;
-    height: 264px;
+    height: 234px;
     border-radius: 19px;
-    margin-left: 1600px;
-    margin-top: -73%;
+    margin-left: 1580px;
+    margin-top: -45%;
     visibility: 0;
     opacity: 0;
     z-index: 0;
+    box-shadow: 0px 1px 8px 0px #00000014;
     }
     
     .motion1.open {
@@ -1164,13 +1165,15 @@ margin-left: 20px;
     .motion2 {
         position: fixed;
         border:none;
-        width: 250px;
-        height: 156px;
-        margin-left: 1670px;
-        margin-top: -74%;
+        width: 180px;
+        height: 146px;
+        border-radius: 19px;
+        margin-left: 1570px;
+        margin-top: -44%;
         visibility: 0;
         opacity: 0;
         z-index: 0;
+        box-shadow: 0px 1px 8px 0px #00000014;
         }
         
         .motion2.open {
@@ -1183,22 +1186,45 @@ margin-left: 20px;
             position: fixed;
             border:none;
             border-radius: 19px;
-            width: 280px;
-            height: 194px;
+            width: 190px;
+            height: 134px;
             margin-left: 1680px;
-            margin-top: -74%;
+            margin-top: -44%;
             visibility: 0;
             opacity: 0;
             z-index: 0;
+            box-shadow: 0px 1px 8px 0px #00000014;
             }
-            
+
             .motion3.open {
                 visibility: 1; 
                 opacity: 1;
                 z-index: 1;
             }
 
+            .motion4 {
+                position: fixed;
+                border:none;
+                border-radius: 19px;
+                width: 350px;
+                min-height: 194px;
+                max-height: 600px;
+                margin-left: 1480px;
+                margin-top: -44%;
+                visibility: 0;
+                opacity: 0;
+                z-index: 0; 
+                box-shadow: 0px 1px 8px 0px #00000014;
+                }
+            
+            .motion4.open {
+                visibility: 1; 
+                opacity: 1;
+                z-index: 1;
+            }
+
             .motion1_text {
+                margin-left: 30px;
                 font-family: Roboto;
                 font-size: 15px;
                 font-weight: 422;
@@ -1208,6 +1234,7 @@ margin-left: 20px;
                 color: #A29EB6;
             }
             .motion2_text {
+                margin-left: 5px;
                 font-family: Roboto;
                 font-size: 15px;
                 font-weight: 500;
@@ -1216,6 +1243,7 @@ margin-left: 20px;
             }
 
             .motion2_error_text {
+                margin-left: 45px;
                 font-family: Roboto;
                 font-size: 20px;
                 font-weight: 600;
@@ -1242,10 +1270,13 @@ margin-left: 20px;
                 font-weight: 700;
                 line-height: 17.22px;
                 color: #FFFFFF;
+                margin-left: 30px;
             }
+
             .motion2_button {
+                margin-left: 20px;
                 width: 145px;
-                height: 33.55px;
+                height: 38.55px;
                 border-radius: 9.24px;
                 background-color: #FFDB3C;
                 border: none;
@@ -1266,6 +1297,21 @@ margin-left: 20px;
                 font-weight: 700;
                 line-height: 17.22px;
                 color: #FFFFFF;
+            }
+
+            .motion4_button {
+                margin-top: 40px;
+                width: 325px;
+                height: 50px;
+                border-radius: 6.06px;
+                background-color: #FFDB3C;
+                border: none;
+                font-family: Lato;
+                font-size: 14.35px;
+                font-weight: 700;
+                line-height: 17.22px;
+                color: #FFFFFF;
+                margin-left: 12px;
             }
 
             .rub_counter {
@@ -1359,4 +1405,36 @@ margin-left: 20px;
 
             .img_stats_commiter {
                 margin-left: 130px;
+            }
+
+            .message_part {
+                display: flex;
+                margin-left: 10px;
+            }
+
+            .nickname_in_motion {
+                margin-top: 25px;
+                font-family: Lato;
+                font-size: 13.54px;
+                font-weight: 700;
+                line-height: 16.25px;
+            }
+            
+            .motion_type {
+                font-family: Lato;
+                font-size: 9.32px;
+                font-weight: 700;
+                line-height: 11.18px;
+                color: #FFD000;
+            }
+
+            .motion_block {
+                margin-left: 50px;
+            }
+
+            .delete_motion {
+                margin-left: 50px;
+                border: none;
+                border-radius: 17.71px ;
+                background-color: white;
             }

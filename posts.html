@@ -29,6 +29,35 @@
     </div>
 
     <div class="right_block_projects2">
+        <div class="search_projects_block">
+            <img src="/img/search.svg">
+            <input type="text" placeholder="Поиск" class="input_search">
+        </div>
+        <div class="filters_block_text">
+            <p class="filters_block_text_msg">Фильтрация</p>
+            <p class="filters_block_text_msg">Всего найдено:</p>
+        </div>
+        <div class="filters_block_buttons">
+            <select name="user_profile_color_1" class="button_of_filters">
+                <option value="1">Соцсеть</option>
+                <option value="2">Instagram</option>
+                <option value="3">VK</option>
+                <option value="4">OK</option>
+                <option value="5">Telegram</option>
+                <option value="6">Likee</option>
+                <option value="7">Tiktok</option>
+                <option value="8">Youtube</option>
+                <option value="9">Twitch</option>
+              </select>
+              <select name="user_profile_color_1" class="button_of_filters">
+                <option value="1">Тип оплаты</option>
+                <option value="2">CPA</option>
+                <option value="3">CPP</option>
+                <option value="4">CPV</option>
+                <option value="5">CPPF</option>
+              </select>
+        </div>
+        
 <div class="left_profile_block">'
     <div class="post_block_display_grid">
     <div class="post_block">
@@ -287,8 +316,6 @@
 </div>
 </div>
 </div>
-
-
     </div>
     </div>
 
@@ -356,6 +383,17 @@
     <div class="motion3">
         <p class="motion3_text">Блогер был <br>добавлен <span class="yellow_span">ранее</span></p>
         <button class="motion3_button" onclick="{close_motion3()}">Добавить другого блогера</button>
+    </div>
+    <div class="motion4">
+        <div class="message_part">
+            <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+            <div class="motion_block">
+                <p class="nickname_in_motion">Vladmlh</p>
+                <p class="motion_type">Сделал чё-то</p>
+            </div>
+            <button class="delete_motion"><img src="/img/delete.png"></button>
+        </div>
+        <button onclick="{close_motion4()}" class="motion4_button">Удалить всё</button>
     </div>
     <div class="error">
         <button class="esc3" onclick="{delete_error()}"><img src="/img/cross.svg"></button> 
