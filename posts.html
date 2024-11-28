@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DUNE</title>
+</head>
+<body>
+    <div class="motion1">
+        <p class="motion1_text">Мы используем <span class="yellow_span">cookie</span>
+            <br>
+            Во время посещения сайта DUNE вы <br> соглашаетесь с тем, что мы <br> обрабатываем ваши персональные <br> данные с использованием метрич <br>еских программ. Подробнее
+        </p>
+        <button class="motion1_button" onclick="{close_motion1()}">Соглашаюсь</button>
+    </div>
+
+    <div class="motion2">
+        <p class="motion2_error_text">Ошибка</p>
+        <p class="motion2_text">У вас нет уведомлений</p>
+        <button class="motion2_button" onclick="{close_motion2()}">Ок</button>
+    </div>
+    
+    <div class="motion3">
+        <p class="motion3_text">Блогер был <br>добавлен <span class="yellow_span">ранее</span></p>
+        <button class="motion3_button" onclick="{close_motion3()}">Добавить другого блогера</button>
+    </div>
+    <div class="motion4 open">
+        <div class="message_part">
+            <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+            <div class="motion_block">
+                <p class="nickname_in_motion">Vladmlh</p>
+                <p class="motion_type">Сделал чё-то</p>
+            </div>
+            <button class="delete_motion"><img src="/img/delete.png"></button>
+        </div>
+        <button onclick="{close_motion4()}" class="motion4_button">Удалить всё</button>
+    </div>
+    <div class="error">
+        <button class="esc3" onclick="{delete_error()}"><img src="/img/cross.svg"></button>
+        <p class="error_text">Ошибка</p>
+        <p class="error_text_addition">Бля чел ты что-то сделал не так</p>
+    </div>
+
+    <div class="left_block_projects">
+        <div class="projects_main_logo">
+            <img src="/img/dune_main.svg" class="projects_text">
+        </div>
+<div class="button_block_projects">
+    <button class="button_on_projects_classic" onclick="location.href='home.html'"><img src="/img/blogers.png"><p class="projects_classic_button_text">Блогеры</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/grey_projects.png"><p class="projects_classic_button_text">Проекты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='posts.html'"><img src="/img/yellow_posts.png"><p class="projects_classic_button_text_yellow">Посты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='stats.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='profile.html'"><img src="/img/profile_icon.svg"><p class="projects_classic_button_text">Профиль</p></button>
+</div>
+    </div>
+
+    <div class="right_block_projects2">
+        <div class="filters_block_text">
+            <p class="filters_block_text_msg">Тип показываемых постов:</p>
+        </div>
+        <div class="filters_block_buttons">
+            <select name="user_profile_color_1" class="button_of_filters">
+                <option value="1">Все</option>
+                <option value="2">Только моих блогеров</option>
+                <option value="3">Только чужие</option>
+              </select>
+        </div>
+<div class="left_profile_block">
+    <div class="post_block_display_grid">
+    <div class="post_block">
+        <div class="box_shadows_in_status_block">
+            <div class="style_fix7">
+        <div class="display_flex_profile_prewiew_info2">
+            <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+            <div class="status_block">
+                <p class="id">id: 0</p>
+                <p class="project_block_nickname">Okko</p>
+                <p class="date">30.08.2024</p>
+            </div>
+        </div>
+        <p class="status_of_project_in_posts">Статус: <span class="yellow_span">Опубликованный</span></p>
+        <button class="button_of_post_redaction">Внести итоги</button>
+    </div>
+    </div>
+    <div class="box_shadow_in_info_text">
+        <div class="style_fix5">
+        <div class="style_fix">
+        <p class="addition_text_info">Информация о <span class="yellow_span">посте</span></p>
+        <p class="classic_info_text">Соцсети: <img src="/img/instagram.svg"> <img src="/img/youtube.svg"><img src="/img/telegram.svg"><img src="/img/vk.svg"></p>
+        <p class="classic_info_text">Статус: <span class="info_text">Активен</span></p>
+        <p class="classic_info_text">Тип оплаты: <span class="info_text">CCPF</span></p>
+        <p class="classic_info_text">Оплата: <span class="info_text">2000</span></p>
+    </div>
+        <p class="manager_info_text">Менеджеры <span class="yellow_span">проекта</span></p>
+        <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
+        <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
+    </div>
+    </div>
+    <div class="left_posts_block_box_shadows">
+        <div class="style_fix2">
+        <div class="style_fix4">
+            <p class="addition_text_posts">Информация <span class="yellow_span">о блогере:</span></p>
+        <div class="display_flex_profile_prewiew2">
+            <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="profile_logo_bloger"></button>
+            <div class="status_block">
+                <p class="id">id: 0</p>
+                <p class="project_block_nickname">Okko</p>
+                <p class="date">30.08.2024</p>
+            </div> 
+        </div> 
+        </div>
+        <div class="style_fix3">
+        <div class="display_flex_social_text_bloggers">
+            <p class="social_text_bloggers1">Подписчики</p>
+            <p class="social_text_bloggers1">Охваты</p>
+            <p class="social_text_bloggers1">Лайки</p>
+        </div>
+        <div class="display_flex_status_bloggers2">
+            <p class="Yellow_projects_text">Н/Д</p>
+            <p class="Yellow_projects_text2">Н/Д</p>
+            <p class="Yellow_projects_text3">Н/Д</p>
+        </div>
+    <button class="redaction_post_button" id="open-add-blogers">Редактировать</button>
+    </div>
+    </div>
+    </div>
+    <div class="bloggers_post_info">
+        <p class="addition_text_posts">Информация <span class="yellow_span">о блогере:</span></p>
+        <p class="classic_post_text">Формат: <span class="yellow_span">Reels</span></p>
+        <p class="classic_post_text">Планируемая дата: <span class="yellow_span">01.10.24</span></p>
+        <p class="classic_post_text">Фактическая дата: <span class="yellow_span">01.10.24</span></p>
+        <p class="classic_post_text">Ссылка на пост: <span class="yellow_span">www.dune.ru</span></p>
+    </div>
+    <p class="addition_text_bloger_profile">Статистика <span class="yellow_span">поста</span></p>
+<div class="diplay_grid_statistics_block">
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Проекты</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Заявки</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+    <div class="statistics_underblock">
+        <p class="type_of_stat">Посты</p>
+        <p class="count_of_stat">Н/Д</p>
+    </div>
+</div>
+<div class="screenshot_block">
+    <p class="Yellow_text_for_screen">Скриншоты поста</p>
+    <button class="screenshot" onclick="{open_screen()}"><img src="/img/big_plus.svg"></button>
+</div>
+<div class="info_block">
+<p class="Info_text_posts">Промокоды и ссылки</p>
+<p class="Info_text_posts">Ссылки: <span class="yellow_span">www.dune.ru</span></p>
+</div>
+</div>
+<div class="post_block">
+    <div class="box_shadows_in_status_block">
+        <div class="style_fix7">
+    <div class="display_flex_profile_prewiew_info2">
+        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+        <div class="status_block">
+            <p class="id">id: 0</p>
+            <p class="project_block_nickname">Okko</p>
+            <p class="date">30.08.2024</p>
+        </div>
+    </div>
+    <p class="status_of_project_in_posts">Статус: <span class="yellow_span">Опубликованный</span></p>
+    <button class="button_of_post_redaction">Внести итоги</button>
+</div>
+</div>
+<div class="box_shadow_in_info_text">
+    <div class="style_fix5">
+    <div class="style_fix">
+    <p class="addition_text_info">Информация о <span class="yellow_span">посте</span></p>
+    <p class="classic_info_text">Соцсети: <img src="/img/instagram.svg"> <img src="/img/youtube.svg"><img src="/img/telegram.svg"><img src="/img/vk.svg"></p>
+    <p class="classic_info_text">Статус: <span class="info_text">Активен</span></p>
+    <p class="classic_info_text">Тип оплаты: <span class="info_text">CCPF</span></p>
+    <p class="classic_info_text">Оплата: <span class="info_text">2000</span></p>
+</div>
+    <p class="manager_info_text">Менеджеры <span class="yellow_span">проекта</span></p>
+    <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
+    <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
+</div>
+</div>
+<div class="left_posts_block_box_shadows">
+    <div class="style_fix2">
+    <div class="style_fix4">
+        <p class="addition_text_posts">Информация <span class="yellow_span">о блогере:</span></p>
+    <div class="display_flex_profile_prewiew2">
+        <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="profile_logo_bloger"></button>
+        <div class="status_block">
+            <p class="id">id: 0</p>
+            <p class="project_block_nickname">Okko</p>
+            <p class="date">30.08.2024</p>
+        </div> 
+    </div> 
+    </div>
+    <div class="style_fix3">
+    <div class="display_flex_social_text_bloggers">
+        <p class="social_text_bloggers1">Подписчики</p>
+        <p class="social_text_bloggers1">Охваты</p>
+        <p class="social_text_bloggers1">Лайки</p>
+    </div>
+    <div class="display_flex_status_bloggers2">
+        <p class="Yellow_projects_text">Н/Д</p>
+        <p class="Yellow_projects_text2">Н/Д</p>
+        <p class="Yellow_projects_text3">Н/Д</p>
+    </div>
+<button class="redaction_post_button" id="open-add-blogers">Редактировать</button>
+</div>
+</div>
+</div>
+<div class="bloggers_post_info">
+    <p class="addition_text_posts">Информация <span class="yellow_span">о блогере:</span></p>
+    <p class="classic_post_text">Формат: <span class="yellow_span">Reels</span></p>
+    <p class="classic_post_text">Планируемая дата: <span class="yellow_span">01.10.24</span></p>
+    <p class="classic_post_text">Фактическая дата: <span class="yellow_span">01.10.24</span></p>
+    <p class="classic_post_text">Ссылка на пост: <span class="yellow_span">www.dune.ru</span></p>
+</div>
+<p class="addition_text_bloger_profile">Статистика <span class="yellow_span">поста</span></p>
+<div class="diplay_grid_statistics_block">
+<div class="statistics_underblock">
+    <p class="type_of_stat">Проекты</p>
+    <p class="count_of_stat">Н/Д</p>
+</div>
+<div class="statistics_underblock">
+    <p class="type_of_stat">Заявки</p>
+    <p class="count_of_stat">Н/Д</p>
+</div>
+<div class="statistics_underblock">
+    <p class="type_of_stat">Посты</p>
+    <p class="count_of_stat">Н/Д</p>
+</div>
+</div>
+<div class="screenshot_block">
+<p class="Yellow_text_for_screen">Скриншоты поста</p>
+<button class="screenshot" onclick="{open_screen()}"><img src="/img/nnn.png" class="screenshot"></button>
+</div>
+<div class="info_block">
+<p class="Info_text_posts">Промокоды и ссылки</p>
+<p class="Info_text_posts">Ссылки: <span class="yellow_span">www.dune.ru</span></p>
+</div>
+</div>
+</div>
+</div>
+    </div>
+
+    <div class="big_screen" id="big_window">
+        <button onclick="{close_screen()}" class="large_button"><img src="/img/big_plus.svg" class="big_image"></button>
+    </div>
+
+    
+    <div class="modal_add" id="add-modal-block-blogers">
+        <div class="modal_box">
+                <button class="esc" id="close-add-blogers"><img src="/img/cross.svg"></button> 
+                <p class="addition_text">Изменение<span class="yellow_span2">поста</span></p>
+                <div class="overflow_block_of_modal_box">
+                    <input type="file" class="no_vision2" name="screenshot_add" id="screenshot_add">
+    <label for="screenshot_add"><p class="good_label"> <span class="ssrw">Добавить скриншот</span></p></label>
+                      <input type="text" name="text_input_project" placeholder="Введите ссылку на пост" class="input_project_name">
+                      <div class="display_flex_date_input">
+                        <p class="date_text_modal_box_radius">Ожидаемая:</p>
+                        <input type="date" class="input_date">
+                    </div>
+                        <div class="display_flex_date_input">
+                        <p class="date_text_modal_box_radius">Реальная:</p>
+                        <input type="date" class="input_date">
+                    </div>
+                      <div>
+                      <p class="Status_in_modal_block_bloggers2">Формат</p>
+                      <div class="socials_input_theme">
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Авто, мото</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Бизнес и финансы</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Дом, ремонт</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Животные и питомцы</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Компьютер, интернет</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Здоровье и медицина</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Кулинария, фудблоги</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Лайфстайл</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Новости</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Образование и наука</span></label>
+                        <br>
+                        <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Иное</span></label>
+                        </div>
+                    </div>
+                    </div>
+                      <button class="button_submit" type="submit" id="commit-add-blogers">Подтвердить</button>
+        </div>
+    </div>
+    
+    <script src="/scripts/posts.js"></script>
+</body>
+</html>

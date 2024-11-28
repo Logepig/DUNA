@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DUNE</title>
+</head>
+<body>
+<div class="flex_block_projects">
+    <div class="left_block_projects">
+        <div class="projects_main_logo">
+            <img src="/img/dune_main.svg" class="projects_text">
+        </div>
+<div class="button_block_projects">
+    <button class="button_on_projects_classic" onclick="location.href='home.html'"><img src="/img/blogers.png"><p class="projects_classic_button_text">Блогеры</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/grey_projects.png"><p class="projects_classic_button_text" >Проекты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='posts.html'"><img src="/img/Posts.png"><p class="projects_classic_button_text">Посты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='stats.html'"><img src="/img/statistics.png"><p class="projects_classic_button_text">Результаты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='profile.html'"><img src="/img/profile_icon.svg"><p class="projects_classic_button_text">Профиль</p></button>
+</div>
+    </div>
+
+
+
+    <div class="right_block_projects">
+<div class="commands_block">
+    <div class="admin_panel_display_flex">
+        <button class="admin_panel_change_type">Заявки</button>
+        <img src="/img/gap.svg" class="mark_tick_admin_panel">
+    </div>
+    <div class="admin_panel_display_flex">
+        <button class="admin_panel_change_type" onclick="location.href='pass_generation.html'">Генерация пароля</button>
+        <img src="/img/gap.svg" class="mark_tick_admin_panel">
+    </div>
+    <div class="admin_panel_display_flex">
+        <button class="admin_panel_change_type">База данных/раздача прав доступа</button>
+        <img src="/img/gap.svg" class="mark_tick_admin_panel">
+    </div>
+    <button class="submit_data2" id="open-add-paying">Добавить оплату блогера</button>
+</div>
+</div>
+<div class="modal_add" id="add-modal-block-paying">
+    <div class="modal_box2">
+            <button class="esc" id="close-add-paying"><img src="/img/cross.svg"></button> 
+            <p class="addition_text">Выбрать <span class="yellow_span">блогера</span></p>
+                <div class="display_flex_blogger_paying_block">
+                    <div class="prewiew_project_block">
+                        <div class="display_flex_profile_prewiew">
+                            <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                            <div class="status_block">
+                                <p class="id">id: 0</p>
+                                <p class="project_block_nickname">Okko</p>
+                                <p class="date">30.08.2024</p>
+                            </div>
+                        </div>
+                        <div class="display_flex_social_text_bloggers">
+                            <p class="social_text_bloggers">Подписчики</p>
+                            <p class="social_text_bloggers">Охваты</p>
+                            <p class="social_text_bloggers">Лайки</p>
+                        </div>
+                        <div class="display_flex_status_bloggers">
+                            <p class="Yellow_projects_text">Н/Д</p>
+                            <p class="Yellow_projects_text">Н/Д</p>
+                            <p class="Yellow_projects_text1">Н/Д</p>
+                        </div>
+                        <p class="bloggers_theme">Тематика: <span class="type_of_theme">Лайфстайл</span></p>
+                        <p class="bloggers_theme2">Оплата: <span class="type_of_theme">3000</span></p>
+                        <div class="display_flex_social_status_blogers">
+                            <p class="social_network_blogers">Соцсеть:</p>
+                            <img src="/img/telegram.svg" class="social_network_logo">
+                        </div>
+                    </div>
+                    <div class="prewiew_project_block">
+                        <div class="display_flex_profile_prewiew">
+                            <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                            <div class="status_block">
+                                <p class="id">id: 0</p>
+                                <p class="project_block_nickname">Okko</p>
+                                <p class="date">30.08.2024</p>
+                            </div>
+                        </div>
+                        <div class="display_flex_social_text_bloggers">
+                            <p class="social_text_bloggers">Подписчики</p>
+                            <p class="social_text_bloggers">Охваты</p>
+                            <p class="social_text_bloggers">Лайки</p>
+                        </div>
+                        <div class="display_flex_status_bloggers">
+                            <p class="Yellow_projects_text">Н/Д</p>
+                            <p class="Yellow_projects_text">Н/Д</p>
+                            <p class="Yellow_projects_text1">Н/Д</p>
+                        </div>
+                        <p class="bloggers_theme">Тематика: <span class="type_of_theme">Лайфстайл</span></p>
+                        <p class="bloggers_theme2">Оплата: <span class="type_of_theme">3000</span></p>
+                        <div class="display_flex_social_status_blogers">
+                            <p class="social_network_blogers">Соцсеть:</p>
+                            <img src="/img/telegram.svg" class="social_network_logo">
+                        </div>
+                    </div>
+                </div>
+                <p class="addition_text">Добавление оплаты <span class="yellow_span">блогера</span></p>
+                <input type="number" name="text_input_project" placeholder="Введите оплату блогера" class="input_bloger_paying">
+                <button class="button_submit" type="submit" id="commit-add-paying">Подтвердить</button>
+                </div>
+    </div>
+</div>
+<script src="/scripts/admin_panel.js"></script>
+</body>
+</html>

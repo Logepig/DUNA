@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DUNE</title>
+</head>
+<body>
+<div class="flex_block_projects">
+    <div class="left_block_projects">
+        <div class="projects_main_logo">
+            <img src="/img/dune_main.svg" class="projects_text">
+        </div>
+<div class="button_block_projects">
+    <button class="button_on_projects_classic" onclick="location.href='home.html'"><img src="/img/blogers.png"><p class="projects_classic_button_text">Блогеры</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='project.html'"><img src="/img/grey_projects.png"><p class="projects_classic_button_text">Проекты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='posts.html'"><img src="/img/Posts.png"><p class="projects_classic_button_text">Посты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='stats.html'"><img src="/img/yellow_results.png"><p class="projects_classic_button_text_yellow">Результаты</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='Applications.html'"><img src="/img/Applications.svg"><p class="projects_classic_button_text">Заявки</p></button>
+    <button class="button_on_projects_classic" onclick="location.href='profile.html'"><img src="/img/profile_icon.svg"><p class="projects_classic_button_text">Профиль</p></button>
+</div>
+    </div>
+
+
+
+    <div class="right_block_projects">
+        <div class="display_flex_data_stats">
+            <button class="date_data active">30 дней</button>
+            <button class="date_data">60 дней</button>
+            <button class="date_data">90 дней</button>
+            <button class="date_data">120 дней</button>
+        </div>
+        <div class="display_flex_info_blocks">
+            <div class="info_block2">
+                <p class="date_text">Дата с</p>
+                <label for="input_data" class="label_for_data"><input type="date" name="input_data" class="no_vision"></label>
+                <p class="date_text">Для оффера</p>
+                <select class="option_list">
+                    <option value="def" class="res_option">Выберите элементы <img src="img/Mark_tick.svg"></option>
+                </select>
+            </div>
+            <div class="info_block2">
+                <p class="date_text">Дата по</p>
+                <label for="input_data" class="label_for_data"><input type="date" name="input_data" class="no_vision"></label>
+                <p class="date_text">Для оффера</p>
+                <select class="option_list">
+                    <option value="def" class="res_option">Выберите варианты <img src="img/Mark_tick.svg"></option>
+                </select>
+            </div>
+            <button class="submit_data">Применить</button>
+        </div>
+        <div class="stats_block_display_flex">
+            <div class="status_block2">
+                <div class="needed_display_flex">
+                    <p class="status_type">Выплата</p>
+                    <button class="date_option">30 дней</button>
+                </div>
+                <p class="status_config">0 <span class="wallet">RUB</span></p>
+            </div>
+            <div class="status_block2">
+                    <div class="needed_display_flex">
+                        <p class="status_type">Выдачи</p>
+                        <button class="date_option">30 дней</button>
+                    </div>
+                    <p class="status_config">0</p>
+            </div>
+            <div class="status_block2">
+                    <div class="needed_display_flex">
+                        <p class="status_type">Заявки</p>
+                        <button class="date_option">30 дней</button>
+                    </div>
+                    <p class="status_config">0</p>
+            </div>
+        </div>
+        <div class="offers_block">
+            <div class="needed_display_flex">
+                <p class="offer_type">Статистика по <span class="yellow_span">офферам</span></p>
+                <button class="date_option_offer">30 дней</button>
+            </div>
+            <table class="table_ss">
+                <tr>
+                    <td class="table_el_ff"><span class="ff_table_text">ID заявки</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text">Дата и время заявки</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text"> ID Оффера</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text">Название Оффера</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text">Статус</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text">Целевое действие</span></td>
+                    <td class="table_el_ff"><span class="ff_table_text">Сумма вознаграждения</span></td>
+                </tr>
+                <tr>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                    <td class="table_el"></td>
+                </tr>
+            </table>
+            <button class="adding_offer_button" id="open-add"><img src="/img/big_plus.svg" class="image_of_offer_button"></button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal_add" id="add-modal-block">
+        <div class="modal_box">
+                <button class="esc" id="close-add"><img src="/img/cross.svg"></button> 
+                <p class="addition_text">Добавление нового <span class="yellow_span">оффера</span></p>
+                <div class="overflow_block_of_modal_box">
+                      <input type="text" name="text_input_project" placeholder="Введите ID заявки" class="input_project_name">
+                      <input type="text" name="text_input_project" placeholder="Введите ID Оффера" class="input_project_name">
+                      <input type="text" name="text_input_project" placeholder="Введите Название Оффера" class="input_project_name">
+                      <input type="text" name="text_input_project" placeholder="Введите Статус" class="input_project_name">
+                      <input type="text" name="text_input_project" placeholder="Введите Сумму вознаграждения" class="input_project_name">
+                    </div>
+                      <button class="button_submit" type="submit" id="commit-add">Подтвердить</button>
+        </div>
+        </div>
+
+        
+        <script src="/scripts/stats.js"></script>
+</body>
+</html>

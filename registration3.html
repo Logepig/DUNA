@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DUNE</title>
+</head>
+<body class="reg_container">
+    <div>
+        <img src="/img/Ellipse 126.png" alt="49" class="register_yellow_background">
+    <img src="/img/coin.png" alt="1" class="reg-coin1">
+    <img src="/img/coin.png" alt="2" class="reg-coin2">
+</div>
+
+
+<div>
+    <img src="/img/coin.png" alt="7" class="reg-coin3">
+    <img src="/img/coin.png" alt="8" class="reg-coin4">
+    <img src="/img/Ellipse 126.png" alt="50" class="register_yellow_background3">
+</div>
+
+<div class="modal_add3 open" id="how_are_you">
+    <div class="modal_box3">
+            <p class="addition_text">Как вы узнали<span class="yellow_span">о нас?</span></p>
+            <button class="button_submit" type="submit"onclick="{more_more_and_more()}">По приглашению</button>
+                  <button class="button_submit" type="submit" onclick="location.href='signing.html'" id="no_more">Сам узнал</button>
+    </div>
+</div>
+
+
+<div class="modal_add3" id="who_is_he">
+    <div class="modal_box4">
+        <div class="ffsra">
+            <p class="addition_text">Кто ваc<span class="yellow_span2">пригласил?</span></p>
+            <input type="text" placeholder="Поиск" class="input_search3">
+        </div>
+            <div class="needed_display_flex">
+                <button class="profession" data-profession="dev">Менеджер</button>
+                <button class="profession active" data-profession="design">Скаут</button>
+            </div>
+            <div class="overflow_block_of_modal_box2" data-profession="dev">
+                    <div class="needed_display_flex2">
+                        <div class="display_flex_profile_prewiew">
+                            <button class="profile_prewiew_button2" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo2"></button>
+                            <div class="any_block">
+                                <p class="id">id: 0</p>
+                                <p class="project_block_nickname">Okko</p>
+                                <p class="date">30.08.2024</p>
+                            </div>
+                        </div>
+                        <img src="/img/add.svg" class="ffadd">
+                    </div>
+                </div>
+                <div class="overflow_block_of_modal_box2 active" data-profession="design">
+                    <div class="needed_display_flex2">
+                        <div class="display_flex_profile_prewiew">
+                            <button class="profile_prewiew_button2" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo2"></button>
+                            <div class="any_block">
+                                <p class="id">id: 0</p>
+                                <p class="project_block_nickname">Filla</p>
+                                <p class="date">30.08.2024</p>
+                            </div>
+                        </div>
+                        <img src="/img/add.svg" class="ffadd">
+                    </div>
+                </div>
+                  <button class="button_submit" type="submit" onclick="location.href='signing.html'" id="no_more2">Подтвердить</button>
+    </div>
+</div>
+
+
+
+<script src="/scripts/reg.js"></script>
+</body>
+</html>

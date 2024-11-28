@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>DUNE</title>
+</head>
+<body class="reg_container">
+    <div>
+        <img src="/img/Ellipse 126.png" alt="49" class="register_yellow_background">
+    <img src="/img/coin.png" alt="1" class="sign-coin1">
+    <img src="/img/coin.png" alt="2" class="sign-coin2">
+</div>
+<div>
+    <P class="registration_header_text">УКАЖИТЕ ВАШУ</P>
+    <P class="registration_yellow_header_text">ПОЧТУ И ПАРОЛЬ</P>
+</div>
+
+<div>
+<input type="text" class="registration_window" placeholder="Почта">
+<br>
+<input type="text" class="registration_window" placeholder="Пароль">
+</div>
+
+<div class="registration_quation_block">
+    <input type="checkbox" class="registration_checkbox">
+    <p class="registration_checkbox_text">Запомнить меня</p>
+<button onclick="location.href='forgot_password.html'" class="registration_password_recovery_button">Забыли пароль?</button>
+</div>
+
+<div>
+    <button class="registration_button" onclick="location='home.html'">Вход</button>
+</div>
+
+<div class="signing_button_quation_flex">
+    <p class="signing_quation_button_text">Нет аккаунта?</p>
+    <button class="signing_quation_button" onclick="location.href='registration.html'">Регистрация</button>
+</div>
+
+<div>
+    <img src="/img/coin.png" alt="7" class="sign-coin3">
+    <img src="/img/coin.png" alt="8" class="sign-coin4">
+    <img src="/img/Ellipse 126.png" alt="50" class="register_yellow_background3">
+</div>
+
+<div class="motion1">
+    <p class="motion1_text">Мы используем <span class="yellow_span">cookie</span>
+        <br>
+        Во время посещения сайта DUNE вы <br> соглашаетесь с тем, что мы <br> обрабатываем ваши персональные <br> данные с использованием метрич <br>еских программ. Подробнее
+    </p>
+    <button class="motion1_button" onclick="{close_motion1()}">Соглашаюсь</button>
+</div>
+
+<div class="motion2">
+    <p class="motion2_error_text">Ошибка</p>
+    <p class="motion2_text">У вас нет уведомлений</p>
+    <button class="motion2_button" onclick="{close_motion2()}">Ок</button>
+</div>
+
+<div class="motion3">
+    <p class="motion3_text">Блогер был <br>добавлен <span class="yellow_span">ранее</span></p>
+    <button class="motion3_button" onclick="{close_motion3()}">Добавить другого блогера</button>
+</div>
+<div class="motion4">
+    <div class="message_part">
+        <button class="profile_prewiew_button" onclick="location.href='project_info.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+        <div class="motion_block">
+            <p class="nickname_in_motion">Vladmlh</p>
+            <p class="motion_type">Сделал чё-то</p>
+        </div>
+        <button class="delete_motion"><img src="/img/delete.png"></button>
+    </div>
+    <button onclick="{close_motion4()}" class="motion4_button">Удалить всё</button>
+</div>
+<div class="error">
+    <button class="esc3" onclick="{delete_error()}"><img src="/img/cross.svg"></button> 
+    <p class="error_text">Ошибка</p>
+</div>
+<script src="/scripts/posts.js"></script>
+</body>
+</html>
