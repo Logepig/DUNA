@@ -1556,7 +1556,7 @@ margin-left: 20px;
 
             .date_data {
                 font-family: Lato;
-                font-size: 0.8vw;
+                font-size: 0.5vw;
                 font-weight: 600;
                 margin-left: 3vw;
                 border: none;
@@ -1567,6 +1567,7 @@ margin-left: 20px;
             }
 
             .date_data.active {
+                font-size: 0.5vw;
                 text-align: center;
                 margin-left: 3vw;
                 border: none;
@@ -1901,6 +1902,7 @@ margin-left: 20px;
                     box-shadow: none;
                     width: none;
                     height: none;
+                    margin: none;
                 }
             
                 .projects_classic_button_text {
@@ -1916,10 +1918,10 @@ margin-left: 20px;
             
                         .button_block_projects {
                             position: fixed;
-                            bottom: 30px;
+                            bottom: 0px;
                             right: 0;
                             left: 0;
-                            height: 30px;
+                            height: 40px;
                             padding: 0px;
                             display: flex;
                             justify-content: space-between;
