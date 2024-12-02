@@ -1621,6 +1621,21 @@ margin-left: 20px;
                 margin-left: 30px;
             }
 
+            .submit_data3 {
+                width: 12vw;
+                height: 3vw;
+                min-height: 30px;
+                min-width: 80px;
+                border-radius: 15px;
+                background: #FFDB3C;
+                box-shadow: 0px 0.87px 6.93px 0px #00000014;
+                color: white;
+                border: none;
+                font-size: 2vw;
+                margin-top: 11vw;
+                margin-left: 1vw;
+            }
+
             .date_text {
                 font-family: Lato;
                 font-size: 1.5vw;
@@ -1868,6 +1883,46 @@ margin-left: 20px;
 
             @media(max-width:780px){
 
+                .stats_block_display_flex {
+                    margin-top: 1vh;
+                    display: grid;
+                    grid-template-rows: auto;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 20px;
+                }
+
+                .submit_data3 {
+                    width: 12vw;
+                    height: 3vw;
+                    min-height: 30px;
+                    min-width: 80px;
+                    border-radius: 15px;
+                    background: #FFDB3C;
+                    box-shadow: 0px 0.87px 6.93px 0px #00000014;
+                    color: white;
+                    border: none;
+                    font-size: 2vw;
+                    margin-top: 0.5vh;
+                    margin-left: 1vw;
+                }
+
+                .info_block2 {
+                    margin-top: 2vh;
+                    width: 25vw;
+                    height: 16vw;
+                    min-width: 180px;
+                    min-height: 100px;
+                    border-radius: 23.09px;
+                    box-shadow: 0px 1.22px 9.72px 0px #00000014;
+                    margin-left: 0.5vw;
+                }
+
+                .display_flex_info_blocks {
+                    display: grid;
+                    grid-auto-rows: auto;
+                    margin-top: 20px
+                }
+
                 .offers_block {
                     margin-top: 30px;
                     width: 95vw;
@@ -1898,11 +1953,17 @@ margin-left: 20px;
                 }
             
                 .left_block_projects {
-                    display: block;
-                    box-shadow: none;
-                    width: none;
-                    height: none;
-                    margin: none;
+                    position: fixed;
+                    bottom: 0px;
+                    right: 0;
+                    left: 0;
+                    height: 40px;
+                    padding: 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: white;
+                    width: 85vw;
+                    z-index: 1001;
                 }
             
                 .projects_classic_button_text {
