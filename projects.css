@@ -13,6 +13,11 @@
     max-height: 1500px;
 }
 
+.right_block_projects3 {
+    margin-left: 400px;
+    max-height: 1500px;
+}
+
 .projects_text {
     font-family: DUNE;
     font-size: 30.5px;
@@ -371,6 +376,9 @@ color: #A29EB6;
             margin-left: 300px;
             margin-top: -40px;
             background-color: white;
+            font-size: 16px;
+            font-weight: 500;
+            color: #A29EB6;
         }
 
         .display_flex_modal_add_projects {
@@ -1962,6 +1970,14 @@ margin-left: 20px;
                     margin-left: auto;
                     max-height: 900px;
                 }
+
+                .right_block_projects3 {
+                    margin-left: auto;
+                    height: 85vh;
+                    width: 90%;
+                    overflow: scroll;
+                }
+                
             
                 .left_block_projects {
                     position: fixed;
