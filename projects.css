@@ -1862,6 +1862,17 @@ margin-left: 20px;
                 margin-left: 90px;
                 margin-top: 25px;
             }
+
+            .modal_add4 {
+                left: 0;
+                top: 0;
+                z-index: 9999999;
+                height: 95vh;
+                width: 95%;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+            }
     
             @media(max-width:1900px) {
                 .grid_block_bloggers {
