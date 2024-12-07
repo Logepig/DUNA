@@ -1,10 +1,4 @@
 
-document.getElementById("reg_but").addEventListener("click", function() {
-    document.getElementById("how_are_you").classList.add("open")
-})
-
-
-//4
 
 document.getElementById("no_more").addEventListener("click", function() {
     document.getElementById("how_are_you").classList.remove("open")
