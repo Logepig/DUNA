@@ -314,20 +314,6 @@
         box-shadow: 0px 1px 8px 0px #00000014;
     }
 
-    .overflow_block_of_modal_box2 {
-        display: none;
-        overflow-y: scroll;
-        width: 330px;
-        height: 390px;
-    }
-
-    .overflow_block_of_modal_box2.active {
-        display: block;
-        overflow-y: scroll;
-        width: 330px;
-        height: 390px;
-    }
-
     .ffsra {
         margin-top: -60px;
     }

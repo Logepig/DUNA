@@ -48,7 +48,7 @@
         <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
         <p class="managers_text"> Тихон Шкель: <span class="managers_text_info"> tihshkel@gmail.com</span></p>
 
-        <button class="yellow_button_info" id="add-application">Подать заявку</button>
+        <button class="yellow_button_info">Подать заявку</button>
         </div>
         <p class="looks_like_products">Похожие<span class="yellow_span"> проекты</span></p>
         <div class="overflow_looks_like_projects_block_display_flex">
@@ -178,7 +178,7 @@
                     <img src="/img/social_logo.svg" class="social_network_logo">
                 </div>
                 <div class="display_flex_button_status">
-                    <button class="button_status" onclick="{open_error()}">Подать заявку на...</button>
+                    <button class="button_status">Подать заявку на...</button>
                     <img src="/img/Mark_tick.svg" class="tick_img">
                 </div>
             </div>
@@ -187,39 +187,19 @@
     </div>
     </div>
 </div>
-
-<div class="modal_add2" id="add-modal-block_of_blogers">
-    <div class="big_window">
-        <div class="display_flex_higher_block_of_modal_box_big_window">
-                <p class="addition_text2">Подача заявки <span class="yellow_span">блогера</span></p>
-                <button id="close-addings" class="esc2"><img src="/img/cross.svg"></button> 
+    
+    <div class="modal_add3" id="who_is_he">
+        <div class="modal_box2">
+            <button class="esc" id="close-add"><img src="/img/cross.svg"></button> 
+            <div class="ffsra">
+                <p class="addition_text">Выберите<span class="yellow_span2">блогеров</span></p>
+                <input type="text" placeholder="Поиск" class="input_search3">
             </div>
-            <div class="filters_block_text">
-                <p class="filters_block_text_msg">Фильтрация</p>
-                <p class="filters_block_text_msg">Всего найдено:</p>
-            </div>
-            <div class="filters_block_buttons2">
-                <select name="user_profile_color_1" class="button_of_filters">
-                    <option value="1">Соцсеть</option>
-                    <option value="2">Instagram</option>
-                    <option value="3">VK</option>
-                    <option value="4">OK</option>
-                    <option value="5">Telegram</option>
-                    <option value="6">Likee</option>
-                    <option value="7">Tiktok</option>
-                    <option value="8">Youtube</option>
-                    <option value="9">Twitch</option>
-                  </select>
-                  <select name="user_profile_color_1" class="button_of_filters">
-                    <option value="1">Тип оплаты</option>
-                    <option value="2">CPA</option>
-                    <option value="3">CPP</option>
-                    <option value="4">CPV</option>
-                    <option value="5">CPPF</option>
-                  </select>
-            </div>
-            <div class="overflow_block_of_modal_box_bloggers">
-                <div class="grid_block_modal_box_bloggers">
+                <div class="needed_display_flex">
+                    <button class="profession" data-profession="dev">Мои</button>
+                    <button class="profession active" data-profession="design">Привязанные</button>
+                </div>
+                <div class="overflow_block_of_modal_box2" data-profession="dev">
                     <ul class="bloger_list">
                         <li class="bloger_list_element"><input type="checkbox" class="input_element_in_bloger_list"><div class="prewiew_project_block_in_list">
                             <div class="display_flex_profile_prewiew">
@@ -245,12 +225,35 @@
                         </div></li>
                     </ul>
                     </div>
-                
-            </div>
-            <button class="button_submit_blogers" type="submit" id="commit-adding">Подтвердить</button>
+                    <div class="overflow_block_of_modal_box2 active" data-profession="design">
+                        <ul class="bloger_list">
+                            <li class="bloger_list_element"><input type="checkbox" class="input_element_in_bloger_list"><div class="prewiew_project_block_in_list">
+                                <div class="display_flex_profile_prewiew">
+                                    <button class="profile_prewiew_button" onclick="location.href='bloger_profile.html'"><img src="/img/Project logo.png" class="project_logo"></button>
+                                    <div class="status_block">
+                                        <p class="id">id: 0</p>
+                                        <p class="project_block_nickname">Okko</p>
+                                        <p class="date">30.08.2024</p>
+                                    </div>
+                                </div>
+                                <div class="display_flex_social_text_bloggers">
+                                    <p class="social_text_bloggers">Подписчики</p>
+                                    <p class="social_text_bloggers">Охваты</p>
+                                    <p class="social_text_bloggers">Лайки</p>
+                                </div>
+                                <div class="display_flex_status_bloggers">
+                                    <p class="Yellow_projects_text">Н/Д</p>
+                                    <p class="Yellow_projects_text">Н/Д</p>
+                                    <p class="Yellow_projects_text1">Н/Д</p>
+                                </div>
+                                <p class="bloggers_theme">Тематика: <span class="type_of_theme">Лайфстайл</span></p>
+                                <p class="bloggers_theme">Оплата: <span class="type_of_theme">3000</span></p>
+                            </div></li>
+                        </ul>
+                    </div>
+                      <button class="button_submit" type="submit" onclick="location.href='signing.html'" id="no_more2">Подтвердить</button>
+        </div>
     </div>
-    </div>
-    
 
     <div class="error">
         <button class="esc3"><img src="/img/cross.svg"></button> 

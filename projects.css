@@ -614,6 +614,22 @@ border-radius: 10.86px;
     height: 290px;
 }
 
+.overflow_block_of_modal_box2 {
+    display: none;
+    overflow-y: scroll;
+    width: 410px;
+    height: 490px;
+    margin-left: -50px;
+}
+
+.overflow_block_of_modal_box2.active {
+    display: block;
+    overflow-y: scroll;
+    width: 410px;
+    height: 490px;
+    margin-left: -50px;
+}
+
 .active_not_active {
     display: flex;
 }
