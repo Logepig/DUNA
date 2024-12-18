@@ -27,26 +27,6 @@
     margin-left: 55px;
 }
 
-.d_fix_projects {
-    position: absolute;
-    z-index: 1;
-    margin-top: -51.81px;
-    margin-left: 56px;
-}
-
-.e_fix_projects {
-    position: absolute;
-    z-index: 2;
-    margin-top: -40.2px;
-    margin-left: 181px;
-}
-
-.e_fix_projects_white {
-    position: absolute;
-    z-index: 1;
-    margin-top: -41px;
-    margin-left: 193.3px;
-}
 
 .button_block_projects {
     width: 154px;
@@ -62,6 +42,11 @@
     display: flex;
     background-color: white;
 }
+
+.button_on_projects_classic:hover {
+   border: none;
+}
+
 
 .projects_classic_button_text {
 font-family: Roboto;
@@ -111,7 +96,7 @@ margin-left: 15px;
 
     .input_search {
         margin-left: 8px;
-        width: 20vw;
+        width: 50vw;
         padding-right: 20px;
         height: 48px;
         border-radius: 16px;
@@ -193,7 +178,7 @@ color: #A29EB6;
     .display_flex_status {
         display: flex;
         margin-left: 20px;
-        gap: 49px;
+        gap: 63px;
         margin-top: -25px;
     }
 
@@ -219,6 +204,10 @@ color: #A29EB6;
         border: none;
         background-color: white;
         margin-top: 10px;
+    }
+    
+    .profile_prewiew_button:hover {
+        border: none;
     }
 
     .status_block {
@@ -338,6 +327,10 @@ color: #A29EB6;
         top: 80%;
     }
 
+    .add_svg_button:hover {
+        border: none;
+    }
+
     .modal_add {
         background-color: rgba(0, 0, 0, .1);
         left: 0;
@@ -379,6 +372,11 @@ color: #A29EB6;
             font-size: 16px;
             font-weight: 500;
             color: #A29EB6;
+        }
+
+        .esc:hover {
+            border: none;
+            
         }
 
         .display_flex_modal_add_projects {
@@ -617,17 +615,15 @@ border-radius: 10.86px;
 .overflow_block_of_modal_box2 {
     display: none;
     overflow-y: scroll;
-    width: 410px;
-    height: 490px;
-    margin-left: -50px;
+    width: 360px;
+    height: 390px;
 }
 
 .overflow_block_of_modal_box2.active {
     display: block;
     overflow-y: scroll;
-    width: 410px;
-    height: 490px;
-    margin-left: -50px;
+    width: 360px;
+    height: 390px;
 }
 
 .active_not_active {
@@ -702,6 +698,10 @@ border-radius: 10.86px;
     margin-left: 22px;
 }
 
+.button_cancel_application:hover {
+    border: none;
+}
+
 .prewiew_application_block {
     width: 340px;
     height: 640px;
@@ -720,7 +720,7 @@ border-radius: 10.86px;
 .display_flex_social_text_bloggers {
     margin-left: 8px;
     display: flex;
-    gap: 45px;
+    gap: 35px;
 }
 
 .display_flex_status_bloggers {
@@ -897,6 +897,9 @@ input::-webkit-calendar-picker-indicator {
     background-color: white;
 }
 
+.esc2:hover {
+    border: none;
+}
 
 .overflow_block_bloggers_window {
     overflow-y: scroll;
@@ -1045,6 +1048,10 @@ margin-left: 25px;
     border: none;
 }
 
+.esc3:hover {
+    border: none;
+}
+
 .error_text {
     margin-left: 10px;
     margin-top: 10px;
@@ -1170,6 +1177,10 @@ text-align: center;
     max-height: 413.11px;
     border: none;
     background-color: white;
+}
+
+.screenshot:hover {
+    border: none;
 }
 
 .status_of_project_in_posts {
@@ -1601,6 +1612,11 @@ margin-left: 20px;
                 color: #FFDB3C;
             }
 
+            .date_data:hover {
+                border: none;
+            }
+
+
             .display_flex_info_blocks {
                 display: flex;
                 margin-top: 20px
@@ -1633,6 +1649,7 @@ margin-left: 20px;
             }
 
             .submit_data2 {
+                margin-top: 5px;
                 width: 12vw;
                 min-width: 150px;
                 min-height: 30px;
@@ -1858,6 +1875,10 @@ margin-left: 20px;
                 position: static;
             }
 
+            .adding_offer_button:hover {
+                border: none;
+            }
+
 
             .display_flex_blogger_paying_block {
                 display: flex;
@@ -1924,6 +1945,24 @@ margin-left: 20px;
                 font-family: Lato;
                 font-weight: 800;
                 font-size: 16px;
+            }
+
+            button {
+                cursor: pointer;
+            }
+
+            button:hover {
+                border: #424242, 1px, solid;
+                transition: 0.4s;
+            }
+
+            input {
+                cursor: pointer;
+                font-family: Lato;
+            }
+
+            input:hover {
+                border: #FBCD02, 2px, solid;
             }
     
             @media(max-width:1900px) {

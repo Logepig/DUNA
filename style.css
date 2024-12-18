@@ -77,6 +77,10 @@
     margin: 10px auto; /* Центрирование */
 }
 
+.main_page_button_registation:hover {
+    border: none;
+}
+
 .main_page_button_sighing {
     width: 167px; /* Максимальная ширина */
     height: 52px;

@@ -24,7 +24,7 @@
     max-height: 40px;
     margin: 8px auto; /* Центрирование */
     border-radius: 10px; /* Упрощено */
-    border: none;
+    border: #FFDB3C, 2px, solid;
     background-color: #FFF9F6;
 }
 
@@ -44,6 +44,10 @@
     color: #C2C2C2;
     font-family: Lato;
     font-size: 1rem; /* Изменено на относительное значение */
+}
+
+.registration_password_recovery_button:hover {
+    border: none;
 }
 
 .registration_checkbox_text {
@@ -110,6 +114,10 @@
     background-color: white;
     font-family: Lato;
     line-height: 1.2; /* Изменено на относительное значение */
+    border: none;
+}
+
+.signing_quation_button:hover {
     border: none;
 }
 
