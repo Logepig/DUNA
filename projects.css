@@ -197,7 +197,6 @@ color: #A29EB6;
         margin-left: 50px;
         margin-top: 40px;
         box-shadow: 0px 1px 8px 0px #00000014;
-
     }
 
     .profile_prewiew_button {
@@ -526,6 +525,14 @@ color: #A29EB6;
             margin-left: 80px;
         }
 
+        .looks_like_products2 {
+            font-family: Lato;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26.4px;
+            margin-left: 30px;
+        }
+
         .overflow_looks_like_projects_block_display_flex {
             display: flex;
             overflow-x: scroll;
@@ -533,6 +540,14 @@ color: #A29EB6;
             height: 400px;
         }
 
+        .overflow_looks_like_projects_block_display_flex2 {
+            display: flex;
+            overflow-x: scroll;
+            width: 75vw;
+            height: 400px;
+            margin-left: -50px;
+            min-width: 440px;
+        }
 #input_photo {
     display: none;
 }
@@ -1963,6 +1978,26 @@ margin-left: 20px;
 
             input:hover {
                 border: #FBCD02, 2px, solid;
+            }
+
+            .grey_info {
+                color: #585555;
+            }
+
+            .date2 {
+                width: 320px;
+                margin-left: 5px;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .cost {
+                width: 320px;
+                margin-left: 5px;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 700;
             }
     
             @media(max-width:1900px) {
