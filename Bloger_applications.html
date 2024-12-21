@@ -87,8 +87,7 @@
 <p class="classic_info_text1">Тип оплаты: <span class="info_text">CCPF</span></p>
 <p class="classic_info_text1">Оплата: <span class="info_text">2000</span></p>
 <p class="classic_info_text1">Статус: <span class="status_sucсess_accept">Принято</span></p>
-<label for="input_data" class="label_for_data"><input type="date" name="input_data" class="no_vision3"></label>
-<button class="submit_data2">Запланировать пост</button>
+<button class="submit_data2" id="open-add-blogers">Запланировать пост</button>
             </div>
         </div>
         <div class="prewiew_application_block">
@@ -125,5 +124,42 @@
          </div>
     </div>
 </div>
+
+<div class="modal_add" id="add-modal-block-blogers">
+    <div class="modal_box4">
+            <button class="esc" id="close-add-blogers"><img src="/img/cross.svg"></button> 
+            <p class="addition_text">Запланировать <span class="yellow_span">пост</span></p>
+            <input type="date" name="input_data" class="no_vision4">
+                  <div>
+                  <p class="Status_in_modal_block_bloggers2">Тематика</p>
+                  <div class="socials_input_theme">
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Авто, мото</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Бизнес и финансы</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Дом, ремонт</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Животные и питомцы</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Компьютер, интернет</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Здоровье и медицина</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Кулинария, фудблоги</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Лайфстайл</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Новости</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Образование и наука</span></label>
+                    <br>
+                    <label><input type="checkbox" class="checkbox_type"><span class="Span_label">Иное</span></label>
+                    </div>
+                </div>
+
+                  <button class="button_submit" type="submit" id="commit-add-blogers">Подтвердить</button>
+    </div>
+</div>
+<script src="/scripts/app.js"></script>
 </body>
 </html>

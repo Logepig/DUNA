@@ -1728,6 +1728,15 @@ margin-left: 20px;
                 outline-offset: 0;
             }
 
+            .no_vision4 {
+                border: #FBCD02, 1px, solid;
+                height: 2.5vw;
+                width: 15vw;
+                border-radius: 9px;
+                outline: none;
+                outline-offset: 0;
+            }
+
             .good_label {
                 width: 309px;
                 height: 49px;
@@ -1910,6 +1919,15 @@ margin-left: 20px;
                 border-radius: 22.32px;
             }
 
+            .modal_box4 {
+                background-color: white;
+                width: 330px;
+                height: 600px;
+                padding: 45px;
+                z-index: 99999;
+                border-radius: 22.32px;
+            }
+
             .input_bloger_paying {
                 margin-top: -30px;
                 border-radius: 10px;
@@ -1999,7 +2017,7 @@ margin-left: 20px;
                 font-size: 16px;
                 font-weight: 700;
             }
-    
+            
             @media(max-width:1900px) {
                 .grid_block_bloggers {
                     display: grid;
